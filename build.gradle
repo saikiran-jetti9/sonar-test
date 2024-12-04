@@ -1,0 +1,117 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.2.3'
+	id 'io.spring.dependency-management' version '1.1.4'
+	id 'jacoco'
+	id 'org.sonarqube' version '4.0.0.2929'
+	id 'com.diffplug.spotless' version '6.25.0'
+	id "com.google.cloud.tools.jib" version "3.3.2"
+	id 'pmd'
+}
+
+spotless {
+	java {
+		removeUnusedImports()
+		eclipse()
+		trimTrailingWhitespace()
+	}
+}
+
+pmd {
+	toolVersion = '7.3.0'
+	ruleSets = []
+	ruleSetFiles = files('config/pmd/ruleset.xml')
+}
+
+tasks.withType(Pmd) {
+	reports {
+		xml.required.set(false)
+		html.required.set(true)
+	}
+}
+
+group = 'com.bmg'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.flywaydb:flyway-core'
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+	implementation 'org.springframework.boot:spring-boot-starter-amqp'
+	implementation 'com.google.cloud:google-cloud-storage:2.40.0'
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+	implementation 'org.springframework.boot:spring-boot-starter-amqp'
+	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:4.1.0'
+	implementation 'com.jcraft:jsch:0.1.55'
+
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	implementation 'org.springframework.security:spring-security-messaging'
+
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
+
+	testImplementation 'junit:junit:4.13.1'
+	testImplementation 'org.projectlombok:lombok:1.18.26'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	compileOnly 'org.projectlombok:lombok'
+	runtimeOnly 'org.postgresql:postgresql'
+
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'org.apache.velocity:velocity:1.7'
+	implementation 'org.apache.velocity:velocity-engine-core:2.4.1'
+	implementation 'org.apache.velocity.tools:velocity-tools-generic:3.1'
+
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.thymeleaf:thymeleaf:3.0.12.RELEASE'
+	implementation 'com.jayway.jsonpath:json-path:2.6.0'
+	implementation 'com.sendgrid:sendgrid-java:4.8.3'
+
+	implementation 'org.springframework.boot:spring-boot-starter-activemq'
+}
+
+jacocoTestReport {
+	reports {
+		xml.required = true
+	}
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+	finalizedBy jacocoTestReport
+}
+
+tasks.named('sonar').configure {
+	dependsOn test
+}
+
+task installLocalGitHook(type: Copy) {
+	from new File(rootProject.rootDir, 'scripts/pre-commit')
+	into { new File(rootProject.rootDir, '.git/hooks')}
+	fileMode 0775
+
+}
+
+build.dependsOn installLocalGitHook
+
+apply from: "sonarqube.gradle"
+apply plugin: "com.google.cloud.tools.jib"

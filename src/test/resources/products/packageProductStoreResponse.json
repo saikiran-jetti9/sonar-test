@@ -1,0 +1,291 @@
+{
+  "assets": [
+    {
+      "asset": {
+        "id": 433596,
+        "upload_id": 433789,
+        "itemType": "Tiff",
+        "contentType": "image/tiff",
+        "colorType": "RGB",
+        "width": 1500,
+        "height": 1500,
+        "dpi": 300,
+        "crop": "1500:1500:0:0",
+        "fileSize": 6762316,
+        "originalFileName": "G010001715988T.tiff",
+        "uploadFileName": "4_catalogue529_1b0ec145-4710-4589-8457-ad03fc7b9602.tiff",
+        "nasFilePath": "/StoreProduction/Assets/complete/4_catalogue529_1b0ec145-4710-4589-8457-ad03fc7b9602.tiff",
+        "checksum": "a7adfd9e7dd8bb321b050949861389c9",
+        "externalDownloadUrl": null,
+        "externalUrlCreatedDate": null,
+        "externalUrlValidity": null
+      },
+      "transcodeDetails": [
+        {
+          "transcodeId": "433789_jpg",
+          "uploadId": 433789,
+          "itemType": "jpg",
+          "contentType": "image/jpeg",
+          "colorType": "RGB",
+          "dimension": "1500X1500px",
+          "dpi": "300dpi",
+          "filesize": 215381,
+          "fileName": "4_catalogue529_1b0ec145-4710-4589-8457-ad03fc7b9602.tiff.jpg",
+          "checksum": "e677b8e7993f004fbadbe24e1ee44552",
+          "transCodedDate": "16-Mar-22",
+          "storeId": 433596,
+          "nasFilePath": "/StoreProduction/Assets_TS/transcodes/4_catalogue529_1b0ec145-4710-4589-8457-ad03fc7b9602.tiff.jpg"
+        }
+      ]
+    },
+    {
+      "asset": {
+        "id": 433596,
+        "upload_id": 433789,
+        "itemType": "Tiff",
+        "contentType": "image/tiff",
+        "colorType": "RGB",
+        "width": 1500,
+        "height": 1500,
+        "dpi": 300,
+        "crop": "1500:1500:0:0",
+        "fileSize": 6762316,
+        "originalFileName": "G010001715988T.tiff",
+        "uploadFileName": "4_catalogue529_1b0ec145-4710-4589-8457-ad03fc7b9602.tiff",
+        "nasFilePath": "/StoreProduction/Assets/complete/4_catalogue529_1b0ec145-4710-4589-8457-ad03fc7b9602.tiff",
+        "checksum": "a7adfd9e7dd8bb321b050949861389c9",
+        "externalDownloadUrl": null,
+        "externalUrlCreatedDate": null,
+        "externalUrlValidity": null
+      },
+      "transcodeDetails": [
+        {
+          "transcodeId": "433789_jpg",
+          "uploadId": 433789,
+          "itemType": "jpg",
+          "contentType": "image/jpeg",
+          "colorType": "RGB",
+          "dimension": "1500X1500px",
+          "dpi": "300dpi",
+          "filesize": 215381,
+          "fileName": "4_catalogue529_1b0ec145-4710-4589-8457-ad03fc7b9602.tiff.jpg",
+          "checksum": "e677b8e7993f004fbadbe24e1ee44552",
+          "transCodedDate": "16-Mar-22",
+          "storeId": 433596,
+          "nasFilePath": "/StoreProduction/Assets_TS/transcodes/4_catalogue529_1b0ec145-4710-4589-8457-ad03fc7b9602.tiff.jpg"
+        }
+      ]
+    },
+    {
+      "asset": {
+        "id": 433618,
+        "upload_id": 433811,
+        "itemType": "Wav",
+        "contentType": "audio/wav",
+        "audioCodec": "PCM signed 16-bit little-endian",
+        "bitRate": 1411000,
+        "channels": 2,
+        "duration": 157330,
+        "sampleRate": 44100,
+        "sampleSize": 16,
+        "fileSize": 27753644,
+        "originalFileName": "G010001715988T_002_010_ITB007401270.wav",
+        "uploadFileName": "4_catalogue529_82a07d8d-0529-4bb7-9855-d778ab77e31e.wav",
+        "nasFilePath": "/StoreProduction/Assets/complete/4_catalogue529_82a07d8d-0529-4bb7-9855-d778ab77e31e.wav",
+        "checksum": "96e9d2810ac61f995f55f8a93f812c3a",
+        "externalDownloadUrl": null,
+        "externalUrlCreatedDate": null,
+        "externalUrlValidity": null
+      },
+      "transcodeDetails": []
+    },
+    {
+      "asset": {
+        "id": 433611,
+        "upload_id": 433804,
+        "itemType": "Wav",
+        "contentType": "audio/wav",
+        "audioCodec": "PCM signed 16-bit little-endian",
+        "bitRate": 1411000,
+        "channels": 2,
+        "duration": 236170,
+        "sampleRate": 44100,
+        "sampleSize": 16,
+        "fileSize": 41661020,
+        "originalFileName": "G010001715988T_002_003_ITB007500829.wav",
+        "uploadFileName": "4_catalogue529_3799dbf7-27d0-4c67-9bed-3bd072031b45.wav",
+        "nasFilePath": "/StoreProduction/Assets/complete/4_catalogue529_3799dbf7-27d0-4c67-9bed-3bd072031b45.wav",
+        "checksum": "61c838c89529931efbf2407219745115",
+        "externalDownloadUrl": null,
+        "externalUrlCreatedDate": null,
+        "externalUrlValidity": null
+      },
+      "transcodeDetails": []
+    },
+    {
+      "asset": {
+        "id": 433612,
+        "upload_id": 433805,
+        "itemType": "Wav",
+        "contentType": "audio/wav",
+        "audioCodec": "PCM signed 16-bit little-endian",
+        "bitRate": 1411000,
+        "channels": 2,
+        "duration": 149670,
+        "sampleRate": 44100,
+        "sampleSize": 16,
+        "fileSize": 26401244,
+        "originalFileName": "G010001715988T_002_004_ITB007900746.wav",
+        "uploadFileName": "4_catalogue529_8338485d-5e8b-40f5-8d31-aa39752fde11.wav",
+        "nasFilePath": "/StoreProduction/Assets/complete/4_catalogue529_8338485d-5e8b-40f5-8d31-aa39752fde11.wav",
+        "checksum": "e5086dc87cad92c058afcf034b5f98ed",
+        "externalDownloadUrl": null,
+        "externalUrlCreatedDate": null,
+        "externalUrlValidity": null
+      },
+      "transcodeDetails": []
+    },
+    {
+      "asset": {
+        "id": 433597,
+        "upload_id": 433790,
+        "itemType": "Wav",
+        "contentType": "audio/wav",
+        "audioCodec": "PCM signed 16-bit little-endian",
+        "bitRate": 1411000,
+        "channels": 2,
+        "duration": 175330,
+        "sampleRate": 44100,
+        "sampleSize": 16,
+        "fileSize": 30928844,
+        "originalFileName": "G010001715988T_001_001_ITB007500835.wav",
+        "uploadFileName": "4_catalogue529_19e1718e-cf31-40bc-9ad0-7691d3aa6dd9.wav",
+        "nasFilePath": "/StoreProduction/Assets/complete/4_catalogue529_19e1718e-cf31-40bc-9ad0-7691d3aa6dd9.wav",
+        "checksum": "69bcd9dd964a081e031299e635bdb073",
+        "externalDownloadUrl": null,
+        "externalUrlCreatedDate": null,
+        "externalUrlValidity": null
+      },
+      "transcodeDetails": []
+    },
+    {
+      "asset": {
+        "id": 433608,
+        "upload_id": 433801,
+        "itemType": "Wav",
+        "contentType": "audio/wav",
+        "audioCodec": "PCM signed 16-bit little-endian",
+        "bitRate": 1411000,
+        "channels": 2,
+        "duration": 215510,
+        "sampleRate": 44100,
+        "sampleSize": 16,
+        "fileSize": 38015420,
+        "originalFileName": "G010001715988T_001_012_ITB007401271.wav",
+        "uploadFileName": "4_catalogue529_ab3d333f-9f3e-46eb-8ec7-8ad5bbf8adff.wav",
+        "nasFilePath": "/StoreProduction/Assets/complete/4_catalogue529_ab3d333f-9f3e-46eb-8ec7-8ad5bbf8adff.wav",
+        "checksum": "33f586e44ac76611c0f584b16d3e3397",
+        "externalDownloadUrl": null,
+        "externalUrlCreatedDate": null,
+        "externalUrlValidity": null
+      },
+      "transcodeDetails": []
+    },
+    {
+      "asset": {
+        "id": 433601,
+        "upload_id": 433794,
+        "itemType": "Wav",
+        "contentType": "audio/wav",
+        "audioCodec": "PCM signed 16-bit little-endian",
+        "bitRate": 1411000,
+        "channels": 2,
+        "duration": 256670,
+        "sampleRate": 44100,
+        "sampleSize": 16,
+        "fileSize": 45276044,
+        "originalFileName": "G010001715988T_001_005_ITB007401269.wav",
+        "uploadFileName": "4_catalogue529_c201b210-57e0-4a07-af67-26364a5fb506.wav",
+        "nasFilePath": "/StoreProduction/Assets/complete/4_catalogue529_c201b210-57e0-4a07-af67-26364a5fb506.wav",
+        "checksum": "a770399ea4df65bd9002d4500445387a",
+        "externalDownloadUrl": null,
+        "externalUrlCreatedDate": null,
+        "externalUrlValidity": null
+      },
+      "transcodeDetails": []
+    },
+    {
+      "asset": {
+        "id": 433602,
+        "upload_id": 433795,
+        "itemType": "Wav",
+        "contentType": "audio/wav",
+        "audioCodec": "PCM signed 16-bit little-endian",
+        "bitRate": 1411000,
+        "channels": 2,
+        "duration": 213490,
+        "sampleRate": 44100,
+        "sampleSize": 16,
+        "fileSize": 37660268,
+        "originalFileName": "G010001715988T_001_006_ITB007500828.wav",
+        "uploadFileName": "4_catalogue529_1f3d7d1e-1482-4452-a415-22bedd099921.wav",
+        "nasFilePath": "/StoreProduction/Assets/complete/4_catalogue529_1f3d7d1e-1482-4452-a415-22bedd099921.wav",
+        "checksum": "0d4b0744fd64180f11b548f2a9192c73",
+        "externalDownloadUrl": null,
+        "externalUrlCreatedDate": null,
+        "externalUrlValidity": null
+      },
+      "transcodeDetails": [
+        {
+          "transcodeId": "433795_mp3_256",
+          "uploadId": 433795,
+          "itemType": "mp3_256",
+          "contentType": "audio/mpeg",
+          "audioCodec": "MP3 (MPEG audio layer 3)",
+          "bitRate": 256000,
+          "channels": 2,
+          "duration": 213520,
+          "sampleRate": 44100,
+          "sampleSize": 3,
+          "filesize": 6833676,
+          "fileName": "4_catalogue529_1f3d7d1e-1482-4452-a415-22bedd099921.wav_256.mp3",
+          "checksum": "b1972603e01a9518e44840362bfcb98a",
+          "transCodedDate": "22-Aug-23",
+          "storeId": 433602,
+          "nasFilePath": "/StoreProduction/Assets_TS/transcodes/4_catalogue529_1f3d7d1e-1482-4452-a415-22bedd099921.wav_256.mp3"
+        },
+        {
+          "transcodeId": "433795_flac_1411000",
+          "uploadId": 433795,
+          "itemType": "flac_1411000",
+          "bitRate": 792000,
+          "duration": 213490,
+          "filesize": 21137138,
+          "fileName": "4_catalogue529_1f3d7d1e-1482-4452-a415-22bedd099921.wav_1411000.flac",
+          "checksum": "0ba1528b23739af31558c00107bbb79d",
+          "transCodedDate": "22-Aug-23",
+          "storeId": 433602,
+          "nasFilePath": "/StoreProduction/Assets_TS/transcodes/4_catalogue529_1f3d7d1e-1482-4452-a415-22bedd099921.wav_1411000.flac"
+        },
+        {
+          "transcodeId": "433795_mp3_320",
+          "uploadId": 433795,
+          "itemType": "mp3_320",
+          "contentType": "audio/mpeg",
+          "audioCodec": "MP3 (MPEG audio layer 3)",
+          "bitRate": 320000,
+          "channels": 2,
+          "duration": 213520,
+          "sampleRate": 44100,
+          "sampleSize": 4,
+          "filesize": 8542085,
+          "fileName": "4_catalogue529_1f3d7d1e-1482-4452-a415-22bedd099921.wav_320.mp3",
+          "checksum": "df2009f84b3b842ea2bbf382f9e8b455",
+          "transCodedDate": "22-Aug-23",
+          "storeId": 433602,
+          "nasFilePath": "/StoreProduction/Assets_TS/transcodes/4_catalogue529_1f3d7d1e-1482-4452-a415-22bedd099921.wav_320.mp3"
+        }
+      ]
+    }
+  ]
+}

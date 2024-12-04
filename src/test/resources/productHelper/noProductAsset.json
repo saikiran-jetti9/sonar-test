@@ -1,0 +1,245 @@
+{
+  "messageId": "9f7d81e3-5f8a-4c3b-b12f-ef486957b89e",
+  "messageDate": "2024-06-12T10:35:27.485Z",
+  "approvalId": 159548,
+  "releaseId": "109348",
+  "captureProductId": "172385",
+  "barcode": "4050538654240",
+  "productCode": "538654245",
+  "artistName": "Francesco Gabbani",
+  "title": "Einstein (E=mc²)",
+  "versionTitle": "",
+  "internalVersionTitle": "",
+  "isMultipleArtists": false,
+  "releaseDate": "2020-10-16",
+  "releaseTimed": false,
+  "releaseTimeAndZone": "",
+  "releaseDateDateTime": "",
+  "approveStatus": "APPROVED",
+  "approveDate": "2020-10-16",
+  "marketingRightsCodeName": "World",
+  "contractualRightsCodeName": "World",
+  "financeCategory": "FRONTLINE",
+  "repertoireOwnerCompany": {
+    "id": "7",
+    "name": "BMG Rights Management (Italy) SRL"
+  },
+  "label": { "id": "8", "name": "BMG Rights Management Italy S.R.L." },
+  "format": {
+    "id": "13",
+    "name": "Digital One Track Video",
+    "packageIndicator": false,
+    "physicalIndicator": false,
+    "albumSingle": "SINGLE"
+  },
+  "genre": { "id": "107", "name": "Pop" },
+  "parentalAdvisoryArtworkIndicator": "NOT_APPLICABLE",
+  "parentalAdvisoryLyricsIndicator": "EXPLICIT",
+  "productPriceExceptions": [],
+  "components": [],
+  "distributors": [
+    {
+      "distributorName": "ADA - Retained",
+      "distributorId": "81",
+      "distributorTerritories": [
+        {
+          "isoCode": "AD",
+          "releaseDate": "2020-10-16",
+          "currency": "Euro",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "isAvailableForSale": true
+        },
+        {
+          "isoCode": "ZM",
+          "releaseDate": "2020-10-16",
+          "currency": "Euro",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "isAvailableForSale": true
+        },
+        {
+          "isoCode": "ZW",
+          "releaseDate": "2020-10-16",
+          "currency": "Euro",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "isAvailableForSale": true
+        }
+      ],
+      "retailers": {
+        "exclusives": [
+          { "retailer": { "retailerId": "1", "retailerName": "Apple" } }
+        ],
+        "exclusions": [
+          { "retailer": { "retailerId": "6", "retailerName": "YouTube" } }
+        ]
+      }
+    }
+  ],
+  "consumerSynopsis": "",
+  "changeManagement": {
+    "confirmedDate": "2024-06-12T10:35:27.447Z",
+    "confirmedUser": "Jean-Baptiste Bigand",
+    "changeReason": "Technical",
+    "changeTypes": ["Metadata:Misc", "VideoQCReady"],
+    "changeTypeId": [16, 21],
+    "recordingIDs": [738273]
+  },
+  "changeReason": "Technical",
+  "productSummary": {
+    "identifier": "4050538654240",
+    "artistDisplayName": "Francesco Gabbani",
+    "productTitle": "Einstein (E=mc²)",
+    "label": "BMG Rights Management Italy S.R.L.",
+    "genre": "Pop",
+    "releaseDate": "2020-10-16",
+    "productApprover": "Christine David",
+    "emailIdProductApprover": "christine.david@bmg.com",
+    "approvalDate": "2020-10-16",
+    "approvalId": "73826",
+    "issueType": "Update",
+    "priority": "MINOR",
+    "configuration": "DIGITAL",
+    "format": "Digital One Track Video",
+    "timedRelease": "NO",
+    "pricing": "€2.49/£1.89/$1.99",
+    "exclusivity": "Excluded from YouTube",
+    "confirmations": {
+      "confirmedDate": "2024-06-12T10:35:27.447Z",
+      "confirmedUser": "Jean-Baptiste Bigand",
+      "emailIdConfirmedUser": "jean-baptiste.bigand@bmg.com",
+      "changeReason": "Technical",
+      "changes": [
+        {
+          "changeType": "VideoQCReady",
+          "entityType": "ReleaseProduct",
+          "changeTypeId": "21",
+          "captureEntityId": "172385",
+          "changeSummary": "Video QC Ready changed from false -> true"
+        },
+        {
+          "changeType": "Metadata:Misc",
+          "entityType": "Recording",
+          "changeTypeId": "16",
+          "captureEntityId": "738273",
+          "changeSummary": "Track 1 (IT7ZU2000039) Recording Type  changed from Audiovisual -> Audiovisual (Music Video)"
+        }
+      ]
+    },
+    "description": {
+      "artistPages": [],
+      "instantGratTracks": [],
+      "albumOnlyTracks": []
+    },
+    "projectCode": "BGIT-58204",
+    "projectName": "Viceversa / \tEinstein (E=mc²)",
+    "summary": "Francesco Gabbani / Einstein (E=mc²) / Digital One Track Video(SD)",
+    "releaseTimeAndZone": "",
+    "audioQuality": "Standard Definition"
+  },
+  "standAlone": true,
+  "audioQuality": "STANDARD_DEFINITION",
+  "digitalAttributes": {
+    "retailers": [
+      {
+        "exclusives": [],
+        "exclusions": [{ "retailerId": "6", "retailerName": "YouTube" }]
+      }
+    ],
+    "previewClipsAvailability": "",
+    "previewClipsAvailabilityDate": "",
+    "permanentDownload": false,
+    "permanentDownloadDate": "",
+    "subscriptionStreaming": true,
+    "subscriptionStreamingDate": "",
+    "adSupportStreaming": true,
+    "adSupportedStreamingDate": "",
+    "appleDigitalMaster": false,
+    "masteringEngineerStudio": "",
+    "masteringStudioEmailAddress": "",
+    "containsAudioVisual": true,
+    "videoQcReady": true,
+    "dolbyAtmos": false
+  },
+  "tracks": [
+    {
+      "trackId": 761532,
+      "idx": 0,
+      "captureTrackId": "907133",
+      "captureRecordingId": "738273",
+      "sideNumber": 0,
+      "trackNumber": 0,
+      "individualAvailable": true,
+      "availability": "AVAILABLE",
+      "priceTier": "V1",
+      "priceDescription": "Premium video price",
+      "selectedAsset": {
+        "storeId": "984958",
+        "assetType": "Audiovisual",
+        "itemType": "Video",
+        "supplyChain": true,
+        "qcStatus": "Passed",
+        "fileType": {
+          "bitRate": 183207000,
+          "audioCodec": "PCM signed 16-bit little-endian",
+          "duration": 212280,
+          "sampleRate": 48000,
+          "sampleSize": 16,
+          "videoCodec": "Apple ProRes (iCodec Pro)",
+          "height": 1080,
+          "width": 1920,
+          "dimension": "1920x1080",
+          "frameRate": 25.0
+        },
+        "ddexType": "Video",
+        "ddexResourceType": "ShortFormMusicalWorkVideo",
+        "fileSize": 4861400305,
+        "originalFileName": "IT7ZU2000039_APRM.mov",
+        "checksum": "943aea2307130d06bea18bea2353c567",
+        "uploadFileName": "150_catalogue1303_54bec4a7-0851-444d-9695-ba5cd89f7165.mov",
+        "nasFilePath": "/StorePreProd/Assets/complete/150_catalogue1303_54bec4a7-0851-444d-9695-ba5cd89f7165.mov",
+        "newFileName": "4050538654240_01_01.mov",
+        "externalDownloadUrl": "4050538654240_01_01.mov",
+        "externalUrlCreatedDate": "4050538654240_01_01.mov",
+        "externalUrlValidity": "4050538654240_01_01.mov"
+      },
+      "isrc": "IT7ZU2000039",
+      "previewStartTime": 45,
+      "trackPriceExceptions": [],
+      "earliestReleaseDate": "2020-10-16",
+      "distributors": [
+        {
+          "distributorName": "ADA - Retained",
+          "distributorId": "81",
+          "distributorTerritories": [
+            { "isoCode": "AD" },
+            { "isoCode": "AE" },
+            { "isoCode": "AF" },
+            { "isoCode": "AG" },
+            { "isoCode": "AI" },
+            { "isoCode": "AL" },
+            { "isoCode": "AM" },
+            { "isoCode": "AO" },
+            { "isoCode": "AQ" },
+            { "isoCode": "AR" },
+            { "isoCode": "AS" },
+            { "isoCode": "AT" },
+            { "isoCode": "AU" },
+            { "isoCode": "AW" },
+            { "isoCode": "ZM" },
+            { "isoCode": "ZW" }
+          ]
+        }
+      ]
+    }
+  ],
+  "isDataOnlyTrigger": false,
+  "assetOptions": "SC Assets Only",
+  "ddexPartyId": "PADPIDA2011072101T",
+  "ddexPartyName": "Spotify",
+  "deliveryType": "Full trigger"
+}

@@ -1,0 +1,9 @@
+<tools>
+  <toolbox scope="application">
+    <tool class="org.apache.velocity.tools.generic.DateTool"/>
+    <tool class="org.apache.velocity.tools.generic.NumberTool"/>
+    <tool class="org.apache.velocity.tools.generic.MathTool"/>
+    <tool class="org.apache.velocity.tools.generic.EscapeTool"/>
+    <tool class="org.apache.velocity.tools.generic.LogTool"/>
+  </toolbox>
+</tools>

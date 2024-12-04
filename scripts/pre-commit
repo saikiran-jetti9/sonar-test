@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Run PMD check
+./gradlew pmdMain
+if [ $? -ne 0 ]; then
+    echo "PMD violations found. Commit aborted."
+    exit 1
+fi
+
+echo "Executing ./gradlew spotlessApply"
+# Run Spotless to apply code formatting
+./gradlew spotlessApply
+
+# Check if the task was successful
+if [ $? -ne 0 ]; then
+  echo "Error: spotlessApply failed. Please fix the issues before committing."
+  exit 1
+fi
+
+# Run tests
+echo "Executing ./gradlew test"
+./gradlew test
+
+# Check if the tests passed
+if [ $? -ne 0 ]; then
+  echo "Error: Tests failed. Please fix the failing tests before committing."
+  exit 1
+fi
+
+echo "All checks passed. Ready to commit."
+exit 0

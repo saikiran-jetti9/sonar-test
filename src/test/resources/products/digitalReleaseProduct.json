@@ -1,0 +1,458 @@
+{
+  "releaseProduct": {
+    "messageId": "e3dbc445-ea0e-4b3a-b106-34852da0d25d",
+    "messageDate": "2023-11-20T22:11:21.088Z",
+    "approvalId": 144230,
+    "releaseId": "143038",
+    "captureProductId": "187958",
+    "barcode": "0888072395039",
+    "productCode": "OBC-39503-25",
+    "artistName": "John Lee Hooker",
+    "title": "Boom Boom",
+    "versionTitle": "",
+    "internalVersionTitle": "0888072395039",
+    "isMultipleArtists": false,
+    "releaseDate": "1962-05-08",
+    "releaseTimed": false,
+    "releaseTimeAndZone": "",
+    "releaseDateDateTime": "",
+    "approveStatus": "APPROVED",
+    "approveDate": "2023-11-20",
+    "marketingRightsCodeName": "World",
+    "contractualRightsCodeName": "World",
+    "financeCategory": "CATALOGUE",
+    "repertoireOwnerCompany": {
+      "id": "3",
+      "name": "BMG Rights Management (US) LLC"
+    },
+    "label": { "id": "2", "name": "BMG Rights Management (US) LLC" },
+    "format": {
+      "id": "6",
+      "name": "Digital Audio Album",
+      "packageIndicator": false,
+      "physicalIndicator": false,
+      "albumSingle": "ALBUM"
+    },
+    "genre": { "id": "1", "name": "Blues" },
+    "parentalAdvisoryArtworkIndicator": "NOT_APPLICABLE",
+    "parentalAdvisoryLyricsIndicator": "NOT_APPLICABLE",
+    "productAssets": [
+      {
+        "storeId": "518872",
+        "assetType": "Image",
+        "itemType": "Tiff",
+        "supplyChain": true,
+        "assetSubType": "Packshot",
+        "ddexType": "Image",
+        "ddexResourceType": "FrontCoverImage"
+      }
+    ],
+    "components": [],
+    "consumerSynopsis": "",
+    "changeReason": "Technical",
+    "productSummary": {
+      "identifier": "0888072395039",
+      "artistDisplayName": "John Lee Hooker",
+      "productTitle": "Boom Boom",
+      "label": "BMG Rights Management (US) LLC",
+      "genre": "Blues",
+      "releaseDate": "1962-05-08",
+      "productApprover": "Bill Taylor",
+      "emailIdProductApprover": "bill.taylor@bmg.com",
+      "approvalDate": "2023-11-20",
+      "approvalId": "144229",
+      "issueType": "New Product",
+      "priority": "MINOR",
+      "configuration": "DIGITAL",
+      "format": "Digital Audio Album",
+      "timedRelease": "NO",
+      "pricing": "€9.99/£7.99/$9.99",
+      "euroPpdBmgCode": "Standard3",
+      "gbpPpdBmgCode": "Standard3",
+      "usdPpdBmgCode": "Standard3",
+      "exclusivity": "",
+      "description": {
+        "artistPages": [],
+        "instantGratTracks": [],
+        "albumOnlyTracks": []
+      },
+      "projectCode": "BMGM-66504",
+      "projectName": "Boom Boom",
+      "summary": "John Lee Hooker / Boom Boom / Digital Audio Album(SD)",
+      "releaseTimeAndZone": "",
+      "audioQuality": "Standard Definition"
+    },
+    "audioQuality": "STANDARD_DEFINITION",
+    "digitalAttributes": {
+      "retailers": [{ "exclusives": [], "exclusions": [] }],
+      "previewClipsAvailability": "",
+      "previewClipsAvailabilityDate": "",
+      "permanentDownload": false,
+      "permanentDownloadDate": "",
+      "subscriptionStreaming": true,
+      "subscriptionStreamingDate": "",
+      "adSupportStreaming": true,
+      "adSupportedStreamingDate": "",
+      "masteringEngineerStudio": "",
+      "masteringStudioEmailAddress": "",
+      "containsAudioVisual": false,
+      "videoQcReady": false,
+      "dolbyAtmos": false
+    },
+    "tracks": [
+      {
+        "trackId": 990381,
+        "idx": 10,
+        "captureTrackId": "1009996",
+        "captureRecordingId": "541544",
+        "sideNumber": 0,
+        "trackNumber": 10,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518870",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 217730,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724082",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990380,
+        "idx": 0,
+        "captureTrackId": "1009986",
+        "captureRecordingId": "541519",
+        "sideNumber": 0,
+        "trackNumber": 0,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518860",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 258960,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724067",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990376,
+        "idx": 6,
+        "captureTrackId": "1009992",
+        "captureRecordingId": "541525",
+        "sideNumber": 0,
+        "trackNumber": 6,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518866",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 143330,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724073",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990383,
+        "idx": 1,
+        "captureTrackId": "1009987",
+        "captureRecordingId": "541520",
+        "sideNumber": 0,
+        "trackNumber": 1,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518861",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 134910,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724068",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990375,
+        "idx": 7,
+        "captureTrackId": "1009993",
+        "captureRecordingId": "541526",
+        "sideNumber": 0,
+        "trackNumber": 7,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518867",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 161900,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724074",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990378,
+        "idx": 8,
+        "captureTrackId": "1009994",
+        "captureRecordingId": "541527",
+        "sideNumber": 0,
+        "trackNumber": 8,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518868",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 276000,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724075",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990379,
+        "idx": 11,
+        "captureTrackId": "1009997",
+        "captureRecordingId": "541545",
+        "sideNumber": 0,
+        "trackNumber": 11,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518871",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 223470,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724083",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990373,
+        "idx": 5,
+        "captureTrackId": "1009991",
+        "captureRecordingId": "541524",
+        "sideNumber": 0,
+        "trackNumber": 5,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518865",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 275600,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724072",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990382,
+        "idx": 2,
+        "captureTrackId": "1009988",
+        "captureRecordingId": "541521",
+        "sideNumber": 0,
+        "trackNumber": 2,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518862",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 373930,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724069",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990374,
+        "idx": 4,
+        "captureTrackId": "1009990",
+        "captureRecordingId": "541523",
+        "sideNumber": 0,
+        "trackNumber": 4,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518864",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 279430,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724071",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990384,
+        "idx": 3,
+        "captureTrackId": "1009989",
+        "captureRecordingId": "541522",
+        "sideNumber": 0,
+        "trackNumber": 3,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518863",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 246400,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724070",
+        "previewStartTime": 0
+      },
+      {
+        "trackId": 990377,
+        "idx": 9,
+        "captureTrackId": "1009995",
+        "captureRecordingId": "541528",
+        "sideNumber": 0,
+        "trackNumber": 9,
+        "individualAvailable": true,
+        "priceTier": "T1",
+        "priceDescription": "Premium-Tier Track price",
+        "selectedAsset": {
+          "storeId": "518869",
+          "assetType": "Audio",
+          "itemType": "Wav",
+          "supplyChain": true,
+          "fileType": {
+            "bitRate": 1411000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 387070,
+            "sampleRate": 44100,
+            "sampleSize": 16,
+            "channels": 2
+          },
+          "ddexType": "SoundRecording",
+          "ddexResourceType": "MusicalWorkSoundRecording"
+        },
+        "isrc": "USSE90724076",
+        "previewStartTime": 0
+      }
+    ],
+    "isDataOnlyTrigger": false,
+    "assetOptions": "SC Assets Only",
+    "ddexPartyId": "PADPIDA2011072101T",
+    "ddexPartyName": "Spotify",
+    "deliveryType": "Full trigger"
+  }
+}

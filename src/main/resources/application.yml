@@ -1,0 +1,120 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${OKTA_ISSUER_URI}
+      client:
+        registration:
+          okta:
+            client-id: ${OKTA_CLIENT_ID}
+            client-secret: ${OKTA_CLIENT_SECRET}
+            scope: ${SCOPES}
+            redirect-uri: ${OKTA_REDIRECT_URI}
+            authorization-grant-type: ${AUTHORIZATION_GRANT_TYPE}
+        provider:
+          okta:
+            issuer-uri: ${OKTA_ISSUER_URI}
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    testOnBorrow: true
+    validationQuery: SELECT 1
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PWD}
+  jpa:
+    database: POSTGRESQL
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    hibernate:
+      ddl-auto: validate
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+  flyway:
+    enabled: true
+  rabbitmq:
+    host: ${RABBITMQ_HOST}
+    port: ${RABBITMQ_PORT}
+    username: ${RABBITMQ_USER}
+    password: ${RABBITMQ_PWD}
+
+    workQueue:
+      queue: ${WORKER_QUEUE}
+      exchange: ${WORKER_EXCHANGE}
+      routingKey: ${WORKER_ROUTING_KEY}
+      concurrency: ${WORKER_CONCURRENCY}
+    resultQueue:
+      queue: ${WORK_RESULT_QUEUE}
+      exchange: ${WORK_RESULT_EXCHANGE}
+      routingKey: ${WORK_RESULT_ROUTING_KEY}
+      concurrency: ${WORK_RESULT_CONCURRENCY}
+
+    partnersQueue:
+      queue: ${PARTNERS_QUEUE}
+      exchange: ${PARTNERS_EXCHANGE}
+      routingKey: ${PARTNERS_ROUTING_KEY}
+      concurrency: ${PARTNERS_CONCURRENCY}
+
+
+    listener:
+      prefetchCount: ${RABBITMQ_LISTENER_PREFETCH_COUNT}
+      minConcurrency: ${RABBITMQ_LISTENER_MIN_CONCURRENCY}
+      maxConcurrency: ${RABBITMQ_LISTENER_MAX_CONCURRENCY}
+  activemq:
+    broker-url: ${ACTIVEMQ_BROKER_URL}
+    user: ${ACTIVEMQ_USER}
+    password: ${ACTIVEMQ_PWD}
+    topic: ${ACTIVEMQ_TOPIC}
+    application-id: 105
+    logDestinationName: log_queue
+    isLocalLogging: true
+    isRemoteLogging: false
+
+cors:
+  allowedOrigins: ${CORS_ALLOWED_ORIGINS}
+  allowCredentials: ${CORS_ALLOW_CREDENTIALS}
+
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  health:
+    livenessState:
+      enabled: true
+    readinessState:
+      enabled: true
+
+feign:
+  client:
+    config:
+      storeClient:
+        url: ${STORE_URL}
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+app:
+  dirs:
+    temp: ${TEMP_DIR}
+    attachments: ${ATTACHMENTS_DIR}
+    storeAssets: ${STORE_ASSETS_DIR}
+    storeTranscodes: ${STORE_TRANSCODES_DIR}
+
+sendgrid:
+  api:
+    key: ${SENDGRID_API_KEY}
+    fromMail: Deliver <deliver@bmg.com>
+
+frontend:
+  path: /workflows
+
+instance:
+    url: ${DELIVER_INSTANCE_URL}
+
+logging:
+  level:
+    org.apache.http: DEBUG
+    org.springframework.jms: DEBUG
+    org.apache.activemq: DEBUG

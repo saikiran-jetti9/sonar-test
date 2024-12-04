@@ -1,0 +1,1772 @@
+{
+  "releaseProduct": {
+    "messageId": "9f7d81e3-5f8a-4c3b-b12f-ef486957b89e",
+    "messageDate": "2024-06-12T10:35:27.485Z",
+    "approvalId": 159548,
+    "releaseId": "109348",
+    "captureProductId": "172385",
+    "barcode": "4050538654240",
+    "productCode": "538654245",
+    "artistName": "Francesco Gabbani",
+    "title": "Einstein (E=mc²)",
+    "versionTitle": "",
+    "internalVersionTitle": "",
+    "isMultipleArtists": false,
+    "releaseDate": "2020-10-16",
+    "releaseTimed": false,
+    "releaseTimeAndZone": "",
+    "releaseDateDateTime": "",
+    "approveStatus": "APPROVED",
+    "approveDate": "2020-10-16",
+    "marketingRightsCodeName": "World",
+    "contractualRightsCodeName": "World",
+    "financeCategory": "FRONTLINE",
+    "repertoireOwnerCompany": {
+      "id": "7",
+      "name": "BMG Rights Management (Italy) SRL"
+    },
+    "label": {
+      "id": "8",
+      "name": "BMG Rights Management Italy S.R.L."
+    },
+    "format": {
+      "id": "13",
+      "name": "Digital One Track Video",
+      "packageIndicator": false,
+      "physicalIndicator": false,
+      "albumSingle": "SINGLE"
+    },
+    "genre": {
+      "id": "107",
+      "name": "Pop"
+    },
+    "parentalAdvisoryArtworkIndicator": "NOT_APPLICABLE",
+    "parentalAdvisoryLyricsIndicator": "EXPLICIT",
+    "productPriceExceptions": [],
+    "productAssets": [
+      {
+        "storeId": "987788",
+        "assetType": "Image",
+        "itemType": "Jpeg",
+        "supplyChain": true,
+        "assetSubType": "Screengrab",
+        "videoAssetId": "984958",
+        "ddexType": "Image",
+        "ddexResourceType": "VideoScreenCapture",
+        "fileSize": 122242,
+        "originalFileName": "IT7ZU2000039.sc1.jpg",
+        "checksum": "cbacfbeeae3e61a1cd61f4adaf86dad2",
+        "uploadFileName": "150_catalogue1313_49daf60a-d233-42ba-89fd-2fbb1e721331.jpg",
+        "nasFilePath": "/StorePreProd/Assets/complete/150_catalogue1313_49daf60a-d233-42ba-89fd-2fbb1e721331.jpg",
+        "newFileName": "4050538654240.jpg",
+        "externalDownloadUrl": "4050538654240.jpg",
+        "externalUrlCreatedDate": "4050538654240.jpg",
+        "externalUrlValidity": "4050538654240.jpg"
+      }
+    ],
+    "components": [],
+    "distributors": [
+      {
+        "distributorName": "ADA - Retained",
+        "distributorId": "81",
+        "distributorTerritories": [
+          {
+            "isoCode": "ZW",
+            "releaseDate": "2020-10-16",
+            "currency": "Euro",
+            "permanentDownloadDate": "",
+            "subscriptionStreamingDate": "",
+            "adSupportedStreamingDate": "",
+            "isAvailableForSale": true
+          }
+        ],
+        "retailers": {
+          "exclusives": [],
+          "exclusions": [
+            {
+              "retailer": {
+                "retailerId": "6",
+                "retailerName": "YouTube"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "consumerSynopsis": "",
+    "changeManagement": {
+      "confirmedDate": "2024-06-12T10:35:27.447Z",
+      "confirmedUser": "Jean-Baptiste Bigand",
+      "changeReason": "Technical",
+      "changeTypes": [
+        "Metadata:Misc",
+        "VideoQCReady"
+      ],
+      "changeTypeId": [
+        16,
+        21
+      ],
+      "recordingIDs": [
+        738273
+      ]
+    },
+    "changeReason": "Technical",
+    "productSummary": {
+      "identifier": "4050538654240",
+      "artistDisplayName": "Francesco Gabbani",
+      "productTitle": "Einstein (E=mc²)",
+      "label": "BMG Rights Management Italy S.R.L.",
+      "genre": "Pop",
+      "releaseDate": "2020-10-16",
+      "productApprover": "Christine David",
+      "emailIdProductApprover": "christine.david@bmg.com",
+      "approvalDate": "2020-10-16",
+      "approvalId": "73826",
+      "issueType": "Update",
+      "priority": "MINOR",
+      "configuration": "DIGITAL",
+      "format": "Digital One Track Video",
+      "timedRelease": "NO",
+      "pricing": "€2.49/£1.89/$1.99",
+      "exclusivity": "Excluded from YouTube",
+      "confirmations": {
+        "confirmedDate": "2024-06-12T10:35:27.447Z",
+        "confirmedUser": "Jean-Baptiste Bigand",
+        "emailIdConfirmedUser": "jean-baptiste.bigand@bmg.com",
+        "changeReason": "Technical",
+        "changes": [
+          {
+            "changeType": "VideoQCReady",
+            "entityType": "ReleaseProduct",
+            "changeTypeId": "21",
+            "captureEntityId": "172385",
+            "changeSummary": "Video QC Ready changed from false -> true"
+          },
+          {
+            "changeType": "Metadata:Misc",
+            "entityType": "Recording",
+            "changeTypeId": "16",
+            "captureEntityId": "738273",
+            "changeSummary": "Track 1 (IT7ZU2000039) Recording Type  changed from Audiovisual -> Audiovisual (Music Video)"
+          }
+        ]
+      },
+      "description": {
+        "artistPages": [],
+        "instantGratTracks": [],
+        "albumOnlyTracks": []
+      },
+      "projectCode": "BGIT-58204",
+      "projectName": "Viceversa / \tEinstein (E=mc²)",
+      "summary": "Francesco Gabbani / Einstein (E=mc²) / Digital One Track Video(SD)",
+      "releaseTimeAndZone": "",
+      "audioQuality": "Standard Definition"
+    },
+    "standAlone": true,
+    "audioQuality": "STANDARD_DEFINITION",
+    "digitalAttributes": {
+      "retailers": [
+        {
+          "exclusives": [],
+          "exclusions": [
+            {
+              "retailerId": "6",
+              "retailerName": "YouTube"
+            }
+          ]
+        }
+      ],
+      "previewClipsAvailability": "",
+      "previewClipsAvailabilityDate": "",
+      "permanentDownload": false,
+      "permanentDownloadDate": "",
+      "subscriptionStreaming": true,
+      "subscriptionStreamingDate": "",
+      "adSupportStreaming": true,
+      "adSupportedStreamingDate": "",
+      "appleDigitalMaster": false,
+      "masteringEngineerStudio": "",
+      "masteringStudioEmailAddress": "",
+      "containsAudioVisual": true,
+      "videoQcReady": true,
+      "dolbyAtmos": false
+    },
+    "tracks": [
+      {
+        "trackId": 761532,
+        "idx": 0,
+        "captureTrackId": "907133",
+        "captureRecordingId": "738273",
+        "sideNumber": 0,
+        "trackNumber": 0,
+        "individualAvailable": true,
+        "availability": "AVAILABLE",
+        "priceTier": "V1",
+        "priceDescription": "Premium video price",
+        "selectedAsset": {
+          "storeId": "984958",
+          "assetType": "Audiovisual",
+          "itemType": "Video",
+          "supplyChain": true,
+          "qcStatus": "Passed",
+          "fileType": {
+            "bitRate": 183207000,
+            "audioCodec": "PCM signed 16-bit little-endian",
+            "duration": 212280,
+            "sampleRate": 48000,
+            "sampleSize": 16,
+            "videoCodec": "Apple ProRes (iCodec Pro)",
+            "height": 1080,
+            "width": 1920,
+            "dimension": "1920x1080",
+            "frameRate": 25
+          },
+          "ddexType": "Video",
+          "ddexResourceType": "ShortFormMusicalWorkVideo",
+          "fileSize": 4861400305,
+          "originalFileName": "IT7ZU2000039_APRM.mov",
+          "checksum": "943aea2307130d06bea18bea2353c567",
+          "uploadFileName": "150_catalogue1303_54bec4a7-0851-444d-9695-ba5cd89f7165.mov",
+          "nasFilePath": "/StorePreProd/Assets/complete/150_catalogue1303_54bec4a7-0851-444d-9695-ba5cd89f7165.mov",
+          "newFileName": "4050538654240_01_01.mov",
+          "externalDownloadUrl": "4050538654240_01_01.mov",
+          "externalUrlCreatedDate": "4050538654240_01_01.mov",
+          "externalUrlValidity": "4050538654240_01_01.mov"
+        },
+        "isrc": "IT7ZU2000039",
+        "previewStartTime": 45,
+        "trackPriceExceptions": [],
+        "earliestReleaseDate": "2020-10-16",
+        "distributors": [
+          {
+            "distributorName": "ADA - Retained",
+            "distributorId": "81",
+            "distributorTerritories": [
+              {
+                "isoCode": "AD"
+              },
+              {
+                "isoCode": "BQ"
+              },
+              {
+                "isoCode": "BR"
+              },
+              {
+                "isoCode": "FR"
+              },
+              {
+                "isoCode": "ZW"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isDataOnlyTrigger": false,
+    "assetOptions": "SC Assets Only",
+    "ddexPartyId": "PADPIDA2011072101T",
+    "ddexPartyName": "Spotify",
+    "deliveryType": "Full trigger"
+  },
+  "captureProduct": {
+    "productId": 172385,
+    "releaseReference": "R0",
+    "formattedDuration": "PT3M31S",
+    "site": {
+      "name": "BMG Rights Management Italy",
+      "code": "BGIT",
+      "country": "IT"
+    },
+    "royaltyCompliance": "COMPLIANT",
+    "entityStatus": "COMPLIANT",
+    "lockedStatus": "LOCKED",
+    "contractSupplyChainApproved": false,
+    "isMetadataConfirmed": true,
+    "metadataConfirmedDate": "2020-10-15T17:45:24:312",
+    "isCancelled": false,
+    "isCatalogueIngestion": false,
+    "wasLiveWhenAcquired": false,
+    "barcode": "4050538654240",
+    "productCode": "538654245",
+    "grId": "A10396ZPR0002A161I",
+    "altProductCodes": [
+      "4050538654240"
+    ],
+    "releaseDate": "2020-10-16T00:00:00:000",
+    "artistName": "Francesco Gabbani",
+    "title": "Einstein (E=mc²)",
+    "versionTitle": "",
+    "internalVersionTitle": "",
+    "productTitle": "Einstein (E=mc²)",
+    "genre": {
+      "name": "Pop",
+      "subGenreName": "",
+      "hasPartnerGenre": true,
+      "hasPartnerSubGenre": false,
+      "isClassical": false
+    },
+    "audioQuality": "STANDARD_DEFINITION",
+    "duration": 211,
+    "isRemaster": false,
+    "ownershipType": "OWNED",
+    "copyrightYear": 2020,
+    "copyrightOwner": "BMG Rights Management (Italy) s.r.l.",
+    "copyrightNotice": "(P) 2020 BMG Rights Management (Italy) s.r.l.",
+    "artworkYear": 2020,
+    "artworkOwner": "BMG Rights Management (Italy) s.r.l.",
+    "artworkNotice": "(C) 2020 BMG Rights Management (Italy) s.r.l.",
+    "parentalAdvisoryArtworkIndicator": "NOT_APPLICABLE",
+    "parentalAdvisoryLyricsIndicator": "EXPLICIT",
+    "repertoireOwnerCompany": {
+      "name": "BMG Rights Management (Italy) SRL",
+      "code": "BGIT",
+      "country": {
+        "code": "IT",
+        "name": "Italy"
+      }
+    },
+    "label": {
+      "id": 8,
+      "name": "BMG Rights Management Italy S.R.L.",
+      "gvlLabelCode": "19813",
+      "labelCode": "BGIT"
+    },
+    "format": {
+      "name": "Digital One Track Video",
+      "albumSingle": "SINGLE",
+      "audioVisual": "VISUAL",
+      "isPhysical": false,
+      "reMaConfigCode": "DVT",
+      "isPackage": false,
+      "isNonMusicalAsset": false,
+      "DDEXReleaseType": "VideoSingle",
+      "PartnerReleaseType": "",
+      "DDEXCarrierType": ""
+    },
+    "contractualRightsCode": {
+      "name": "World",
+      "code": "AAC",
+      "isoCountryCodes": [
+        "KH",
+        "EE",
+        "GF"
+      ]
+    },
+    "metadataLanguage": {
+      "name": "Italian",
+      "code": "it"
+    },
+    "isSoundTrack": false,
+    "isDjmix": false,
+    "isKaraoke": false,
+    "isLive": false,
+    "isRemix": false,
+    "isPartial": false,
+    "numberOfTracks": 1,
+    "numberOfTracksByBMG": 1,
+    "numberOfComponents": 1,
+    "isCompilation": false,
+    "isComponent": false,
+    "isPackageOnly": false,
+    "isLicenced": false,
+    "isMultipleArtists": false,
+    "hasBooklet": false,
+    "isPromo": false,
+    "menaCompliance": false,
+    "coordinator": "Michael Möller",
+    "manager": "Edoardo Tozzi",
+    "created": "2020-10-15T17:19:07:344",
+    "updated": "2020-10-28T13:13:24:767",
+    "notes": "",
+    "translationCompliances": [],
+    "projects": [
+      {
+        "code": "BGIT-58204",
+        "title": "Viceversa / \tEinstein (E=mc²)"
+      }
+    ],
+    "contractSummaries": [],
+    "includesDownloadCard": "No",
+    "tracks": [
+      {
+        "trackId": 907133,
+        "sideNumber": 1,
+        "trackNumber": 1,
+        "displayTrackNumber": 1,
+        "trackSequenceNumber": 1,
+        "isHidden": false,
+        "isGapless": false,
+        "isBonus": false,
+        "grId": "A10396ZTR000DD77DH",
+        "overrideArtistName": "Francesco Gabbani",
+        "overrideTitle": "Einstein (E=mc²)",
+        "overrideDuration": 211,
+        "overrideRecordingTitle": "Einstein (E=mc²)",
+        "recording": {
+          "recordingId": 738273,
+          "site": {
+            "name": "BMG Rights Management Italy",
+            "code": "BGIT",
+            "country": "IT"
+          },
+          "royaltyCompliance": "NONCOMPLIANT",
+          "entityStatus": "INCOMPLIANT",
+          "lockedStatus": "LOCKED",
+          "businessUnit": "MASTERS",
+          "category": "VOCAL",
+          "recordingType": "Audiovisual (Music Video)",
+          "isrc": "IT7ZU2000039",
+          "artistName": "Francesco Gabbani",
+          "title": "Einstein (E=mc²)",
+          "internalVersionTitle": "Explicit",
+          "recordingTitle": "Einstein (E=mc²)",
+          "recordingDate": "2020-06-01T08:31:43:000",
+          "duration": 211,
+          "durationFormatted": "00:03:31",
+          "ownershipType": "OWNED",
+          "genre": {
+            "name": "Pop",
+            "subGenreName": "",
+            "hasPartnerGenre": true,
+            "hasPartnerSubGenre": false,
+            "isClassical": false
+          },
+          "explicitIndicator": "EXPLICIT",
+          "copyrightYear": 2020,
+          "isRemaster": false,
+          "isCover": false,
+          "isRerecording": false,
+          "isOriginalRecording": false,
+          "isDjmix": false,
+          "isTribute": false,
+          "copyrightOwner": "Bmg Rights Management (Italy) S.r.l.",
+          "copyrightNotice": "(C) 2020 BMG Rights Management (Italy) S.r.l.",
+          "isLive": false,
+          "isRemix": false,
+          "isCatalogueAcquisition": false,
+          "isMasteredITunes": false,
+          "containsSample": false,
+          "isMedley": false,
+          "recordingLocation": "Mono Studion, Milano",
+          "repertoireOwnerCompany": {
+            "name": "BMG Rights Management (Italy) SRL",
+            "code": "BGIT",
+            "country": {
+              "code": "IT",
+              "name": "Italy"
+            }
+          },
+          "label": {
+            "id": 0,
+            "name": "BMG Rights Management Italy S.R.L.",
+            "gvlLabelCode": "19813",
+            "labelCode": "BGIT"
+          },
+          "metadataLanguage": {
+            "name": "it",
+            "code": "Italian"
+          },
+          "recordingLanguage": {
+            "name": "Italian",
+            "code2": "it",
+            "code3": "ita"
+          },
+          "recordingCountry": {
+            "name": "Italy",
+            "code": "IT"
+          },
+          "created": "2020-10-15T17:18:17:143",
+          "modified": "2024-04-07T18:31:24:233",
+          "menaIndicators": [],
+          "externalCodes": [
+            {
+              "externalCodeText": "lQZPkD-RbU0",
+              "externalCodeType": "YOUTUBE:VIDEO_ID"
+            },
+            {
+              "externalCodeText": "30445073827394",
+              "externalCodeType": "SCPP Internal Code"
+            },
+            {
+              "externalCodeText": "A760780350153294",
+              "externalCodeType": "YOUTUBE:MV_ASSET_ID"
+            }
+          ],
+          "rightsOwnerBeginDate": "2020-09-11 08:34:12.0",
+          "recordingContributors": [
+            {
+              "recordingContributorId": 1871421,
+              "recordingContributorSeqNo": 0,
+              "isArtist": true,
+              "isPrimary": true,
+              "excludeFromSupplyChain": false,
+              "contributor": {
+                "contributorId": 84175,
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "Masters",
+                "groupType": "SOLO",
+                "firstName": "Francesco",
+                "lastName": "Gabbani",
+                "fullName": "Francesco Gabbani",
+                "repertoireOwners": [
+                  {
+                    "name": "BMG Rights Management (Italy) SRL",
+                    "code": "BGIT"
+                  }
+                ],
+                "externalCodes": [
+                  {
+                    "externalCodeText": "5lzqFxifzjxYHGJxuwQqtR",
+                    "externalCodeType": "Spotify Artist Id"
+                  },
+                  {
+                    "externalCodeText": "0000000463212043",
+                    "externalCodeType": "ISNI"
+                  }
+                ]
+              },
+              "roles": [
+                {
+                  "isPrimary": false,
+                  "name": "Vocals",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                },
+                {
+                  "isPrimary": true,
+                  "name": "MainArtist",
+                  "isArtist": true,
+                  "ppiPayable": false,
+                  "isDisplay": true
+                }
+              ],
+              "ppiCategory": "CONTRACTED_FEATURED_ARTIST"
+            },
+            {
+              "recordingContributorId": 1871422,
+              "recordingContributorSeqNo": 1,
+              "isArtist": false,
+              "isPrimary": false,
+              "excludeFromSupplyChain": false,
+              "contributor": {
+                "contributorId": 249320,
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "Masters",
+                "groupType": "SOLO",
+                "firstName": "Matteo",
+                "lastName": "Cantaluppi",
+                "fullName": "Matteo Cantaluppi",
+                "repertoireOwners": []
+              },
+              "roles": [
+                {
+                  "isPrimary": false,
+                  "name": "Moog Bass",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                },
+                {
+                  "isPrimary": false,
+                  "name": "Producer",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                },
+                {
+                  "isPrimary": false,
+                  "name": "Sound Engineer",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                }
+              ],
+              "ppiCategory": "NON_FEATURED_ARTIST"
+            },
+            {
+              "recordingContributorId": 1871423,
+              "recordingContributorSeqNo": 2,
+              "isArtist": false,
+              "isPrimary": false,
+              "excludeFromSupplyChain": false,
+              "contributor": {
+                "contributorId": 250097,
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "Masters",
+                "groupType": "SOLO",
+                "firstName": "Raffaele",
+                "lastName": "Scogna",
+                "fullName": "Raffaele Scogna",
+                "repertoireOwners": []
+              },
+              "roles": [
+                {
+                  "isPrimary": false,
+                  "name": "Arranger",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                },
+                {
+                  "isPrimary": false,
+                  "name": "Piano",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                }
+              ],
+              "ppiCategory": "NON_FEATURED_ARTIST"
+            },
+            {
+              "recordingContributorId": 1871424,
+              "recordingContributorSeqNo": 3,
+              "isArtist": false,
+              "isPrimary": false,
+              "excludeFromSupplyChain": false,
+              "contributor": {
+                "contributorId": 250098,
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "Masters",
+                "groupType": "SOLO",
+                "firstName": "Carmelo Emanuele",
+                "lastName": "Patti",
+                "fullName": "Carmelo Emanuele Patti",
+                "repertoireOwners": []
+              },
+              "roles": [
+                {
+                  "isPrimary": false,
+                  "name": "Violin",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                },
+                {
+                  "isPrimary": false,
+                  "name": "Viola",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                }
+              ],
+              "ppiCategory": "NON_FEATURED_ARTIST"
+            },
+            {
+              "recordingContributorId": 1871425,
+              "recordingContributorSeqNo": 4,
+              "isArtist": false,
+              "isPrimary": false,
+              "excludeFromSupplyChain": false,
+              "contributor": {
+                "contributorId": 250099,
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "Masters",
+                "groupType": "SOLO",
+                "firstName": "Isabel Gallego",
+                "lastName": "Lanau",
+                "fullName": "Isabel Gallego Lanau",
+                "repertoireOwners": []
+              },
+              "roles": [
+                {
+                  "isPrimary": false,
+                  "name": "Violin",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                }
+              ],
+              "ppiCategory": "NON_FEATURED_ARTIST"
+            },
+            {
+              "recordingContributorId": 1871426,
+              "recordingContributorSeqNo": 5,
+              "isArtist": false,
+              "isPrimary": false,
+              "excludeFromSupplyChain": false,
+              "contributor": {
+                "contributorId": 258200,
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "Masters",
+                "groupType": "SOLO",
+                "firstName": "Valentina",
+                "lastName": "Sgarbossa",
+                "fullName": "Valentina Sgarbossa",
+                "repertoireOwners": [
+                  {
+                    "name": "BMG Rights Management (Italy) SRL",
+                    "code": "BGIT"
+                  }
+                ]
+              },
+              "roles": [
+                {
+                  "isPrimary": false,
+                  "name": "Cello",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                }
+              ],
+              "ppiCategory": "NON_FEATURED_ARTIST"
+            },
+            {
+              "recordingContributorId": 1871427,
+              "recordingContributorSeqNo": 6,
+              "isArtist": false,
+              "isPrimary": false,
+              "excludeFromSupplyChain": false,
+              "contributor": {
+                "contributorId": 190639,
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "Masters",
+                "groupType": "SOLO",
+                "firstName": "Ivan Antonio",
+                "lastName": "Rossi",
+                "fullName": "Ivan Antonio Rossi",
+                "repertoireOwners": [
+                  {
+                    "name": "BMG Rights Management (Italy) SRL",
+                    "code": "BGIT"
+                  }
+                ]
+              },
+              "roles": [
+                {
+                  "isPrimary": false,
+                  "name": "Sound Engineer",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                }
+              ],
+              "ppiCategory": "STUDIO_PERSONNEL"
+            },
+            {
+              "recordingContributorId": 1871430,
+              "recordingContributorSeqNo": 7,
+              "isArtist": false,
+              "isPrimary": false,
+              "excludeFromSupplyChain": false,
+              "contributor": {
+                "contributorId": 190193,
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "Masters",
+                "groupType": "SOLO",
+                "firstName": "Tiziano",
+                "lastName": "Russo",
+                "fullName": "Tiziano Russo",
+                "repertoireOwners": [
+                  {
+                    "name": "BMG Rights Management (Italy) SRL",
+                    "code": "BGIT"
+                  }
+                ]
+              },
+              "roles": [
+                {
+                  "isPrimary": false,
+                  "name": "Video Director",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                }
+              ],
+              "ppiCategory": "STUDIO_PERSONNEL"
+            },
+            {
+              "recordingContributorId": 1871432,
+              "recordingContributorSeqNo": 8,
+              "isArtist": false,
+              "isPrimary": false,
+              "excludeFromSupplyChain": false,
+              "contributor": {
+                "contributorId": 259148,
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "Masters",
+                "groupType": "SOLO",
+                "firstName": "Barbara",
+                "lastName": "Simone Roberti",
+                "fullName": "Barbara Simone Roberti",
+                "repertoireOwners": [
+                  {
+                    "name": "BMG Rights Management (Italy) SRL",
+                    "code": "BGIT"
+                  }
+                ]
+              },
+              "roles": [
+                {
+                  "isPrimary": false,
+                  "name": "Producer",
+                  "isArtist": false,
+                  "ppiPayable": false,
+                  "isDisplay": false
+                }
+              ],
+              "ppiCategory": "STUDIO_PERSONNEL"
+            }
+          ],
+          "songs": [
+            {
+              "recordingSongId": 729010,
+              "recordingSongSeqNo": 0,
+              "song": {
+                "songId": 440715,
+                "site": {
+                  "name": "BMG Rights Management Italy",
+                  "code": "BGIT",
+                  "country": "IT"
+                },
+                "royaltyCompliance": "COMPLIANT",
+                "entityStatus": "COMPLIANT",
+                "lockedStatus": "LOCKED",
+                "businessUnit": "MASTERS",
+                "title": "Einstein (E=mc²)",
+                "composerName": "Francesco Gabbani, Filippo Gabbani, Luca Chiaravalli",
+                "publisherName": "BMG Rights Management (Italy) S.r.l. / Music Union S.r.l.",
+                "isPublicDomain": false
+              },
+              "songContributors": [
+                {
+                  "songContributorId": 836367,
+                  "songContribitutorSeqNo": 0,
+                  "contributor": {
+                    "contributorId": 84175,
+                    "entityStatus": "COMPLIANT",
+                    "lockedStatus": "LOCKED",
+                    "businessUnit": "MASTERS",
+                    "groupType": "SOLO",
+                    "firstName": "Francesco",
+                    "lastName": "Gabbani",
+                    "fullName": "Francesco Gabbani",
+                    "repertoireOwners": [
+                      {
+                        "name": "BMG Rights Management (Italy) SRL",
+                        "code": "BGIT"
+                      }
+                    ],
+                    "externalCodes": [
+                      {
+                        "externalCodeText": "5lzqFxifzjxYHGJxuwQqtR",
+                        "externalCodeType": "Spotify Artist Id"
+                      },
+                      {
+                        "externalCodeText": "0000000463212043",
+                        "externalCodeType": "ISNI"
+                      }
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "isPrimary": false,
+                      "name": "Composer",
+                      "isArtist": false,
+                      "ppiPayable": false,
+                      "isDisplay": false
+                    }
+                  ],
+                  "isTraditional": false
+                },
+                {
+                  "songContributorId": 836368,
+                  "songContribitutorSeqNo": 1,
+                  "contributor": {
+                    "contributorId": 99102,
+                    "entityStatus": "COMPLIANT",
+                    "lockedStatus": "LOCKED",
+                    "businessUnit": "MASTERS",
+                    "groupType": "SOLO",
+                    "firstName": "Filippo",
+                    "lastName": "Gabbani",
+                    "fullName": "Filippo Gabbani",
+                    "repertoireOwners": [
+                      {
+                        "name": "BMG Rights Management (Italy) SRL",
+                        "code": "BGIT"
+                      }
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "isPrimary": false,
+                      "name": "Composer",
+                      "isArtist": false,
+                      "ppiPayable": false,
+                      "isDisplay": false
+                    }
+                  ],
+                  "isTraditional": false
+                },
+                {
+                  "songContributorId": 836369,
+                  "songContribitutorSeqNo": 2,
+                  "contributor": {
+                    "contributorId": 141207,
+                    "entityStatus": "COMPLIANT",
+                    "lockedStatus": "LOCKED",
+                    "businessUnit": "MASTERS",
+                    "groupType": "SOLO",
+                    "firstName": "Luca",
+                    "lastName": "Chiaravalli",
+                    "fullName": "Luca Chiaravalli",
+                    "repertoireOwners": [
+                      {
+                        "name": "BMG Rights Management (Italy) SRL",
+                        "code": "BGIT"
+                      }
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "isPrimary": false,
+                      "name": "Composer",
+                      "isArtist": false,
+                      "ppiPayable": false,
+                      "isDisplay": false
+                    }
+                  ],
+                  "isTraditional": false
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "id": 731151,
+              "isrc": "ITDV92000151",
+              "entityStatus": "COMPLIANT",
+              "artistName": "Francesco Gabbani",
+              "title": "Einstein (E=mc²)",
+              "versionTitle": "",
+              "recordingType": {
+                "name": "Audio",
+                "recordingGroup": "AUDIO",
+                "isClip": false,
+                "isClipParent": false,
+                "id": 1
+              },
+              "earliestreleasedate": "2020-10-16T00:00:00:000",
+              "idx": 0
+            }
+          ]
+        }
+      }
+    ],
+    "productContributors": [
+      {
+        "productContributorId": 186795,
+        "productContributorSeqNo": 0,
+        "isArtist": true,
+        "isPrimary": true,
+        "contributor": {
+          "contributorId": 84175,
+          "entityStatus": "COMPLIANT",
+          "lockedStatus": "LOCKED",
+          "businessUnit": "MASTERS",
+          "groupType": "SOLO",
+          "firstName": "Francesco",
+          "lastName": "Gabbani",
+          "fullName": "Francesco Gabbani",
+          "repertoireOwners": [
+            {
+              "name": "BMG Rights Management (Italy) SRL",
+              "code": "BGIT"
+            }
+          ],
+          "externalCodes": [
+            {
+              "externalCodeText": "5lzqFxifzjxYHGJxuwQqtR",
+              "externalCodeType": "Spotify Artist Id"
+            },
+            {
+              "externalCodeText": "0000000463212043",
+              "externalCodeType": "ISNI"
+            }
+          ],
+          "translatedFullName": []
+        },
+        "roles": [
+          {
+            "isPrimary": true,
+            "name": "MainArtist",
+            "isArtist": true,
+            "ppiPayable": false,
+            "isDisplay": true
+          }
+        ]
+      }
+    ],
+    "originalReleaseDate": "2020-10-16"
+  },
+  "partyList": [
+    {
+      "contributorId": 84175,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "Masters",
+      "groupType": "SOLO",
+      "firstName": "Francesco",
+      "lastName": "Gabbani",
+      "fullName": "Francesco Gabbani",
+      "repertoireOwners": [
+        {
+          "name": "BMG Rights Management (Italy) SRL",
+          "code": "BGIT"
+        }
+      ],
+      "externalCodes": [
+        {
+          "externalCodeText": "5lzqFxifzjxYHGJxuwQqtR",
+          "externalCodeType": "Spotify Artist Id"
+        },
+        {
+          "externalCodeText": "0000000463212043",
+          "externalCodeType": "ISNI"
+        }
+      ],
+      "ref": "P1"
+    },
+    {
+      "contributorId": 249320,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "Masters",
+      "groupType": "SOLO",
+      "firstName": "Matteo",
+      "lastName": "Cantaluppi",
+      "fullName": "Matteo Cantaluppi",
+      "repertoireOwners": [],
+      "ref": "P2"
+    },
+    {
+      "contributorId": 250097,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "Masters",
+      "groupType": "SOLO",
+      "firstName": "Raffaele",
+      "lastName": "Scogna",
+      "fullName": "Raffaele Scogna",
+      "repertoireOwners": [],
+      "ref": "P3"
+    },
+    {
+      "contributorId": 250098,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "Masters",
+      "groupType": "SOLO",
+      "firstName": "Carmelo Emanuele",
+      "lastName": "Patti",
+      "fullName": "Carmelo Emanuele Patti",
+      "repertoireOwners": [],
+      "ref": "P4"
+    },
+    {
+      "contributorId": 250099,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "Masters",
+      "groupType": "SOLO",
+      "firstName": "Isabel Gallego",
+      "lastName": "Lanau",
+      "fullName": "Isabel Gallego Lanau",
+      "repertoireOwners": [],
+      "ref": "P5"
+    },
+    {
+      "contributorId": 258200,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "Masters",
+      "groupType": "SOLO",
+      "firstName": "Valentina",
+      "lastName": "Sgarbossa",
+      "fullName": "Valentina Sgarbossa",
+      "repertoireOwners": [
+        {
+          "name": "BMG Rights Management (Italy) SRL",
+          "code": "BGIT"
+        }
+      ],
+      "ref": "P6"
+    },
+    {
+      "contributorId": 190639,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "Masters",
+      "groupType": "SOLO",
+      "firstName": "Ivan Antonio",
+      "lastName": "Rossi",
+      "fullName": "Ivan Antonio Rossi",
+      "repertoireOwners": [
+        {
+          "name": "BMG Rights Management (Italy) SRL",
+          "code": "BGIT"
+        }
+      ],
+      "ref": "P7"
+    },
+    {
+      "contributorId": 190193,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "Masters",
+      "groupType": "SOLO",
+      "firstName": "Tiziano",
+      "lastName": "Russo",
+      "fullName": "Tiziano Russo",
+      "repertoireOwners": [
+        {
+          "name": "BMG Rights Management (Italy) SRL",
+          "code": "BGIT"
+        }
+      ],
+      "ref": "P8"
+    },
+    {
+      "contributorId": 259148,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "Masters",
+      "groupType": "SOLO",
+      "firstName": "Barbara",
+      "lastName": "Simone Roberti",
+      "fullName": "Barbara Simone Roberti",
+      "repertoireOwners": [
+        {
+          "name": "BMG Rights Management (Italy) SRL",
+          "code": "BGIT"
+        }
+      ],
+      "ref": "P9"
+    },
+    {
+      "contributorId": 99102,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "MASTERS",
+      "groupType": "SOLO",
+      "firstName": "Filippo",
+      "lastName": "Gabbani",
+      "fullName": "Filippo Gabbani",
+      "repertoireOwners": [
+        {
+          "name": "BMG Rights Management (Italy) SRL",
+          "code": "BGIT"
+        }
+      ],
+      "ref": "P10"
+    },
+    {
+      "contributorId": 141207,
+      "entityStatus": "COMPLIANT",
+      "lockedStatus": "LOCKED",
+      "businessUnit": "MASTERS",
+      "groupType": "SOLO",
+      "firstName": "Luca",
+      "lastName": "Chiaravalli",
+      "fullName": "Luca Chiaravalli",
+      "repertoireOwners": [
+        {
+          "name": "BMG Rights Management (Italy) SRL",
+          "code": "BGIT"
+        }
+      ],
+      "ref": "P11"
+    }
+  ],
+  "resourceList": [
+    {
+      "trackId": 907133,
+      "sideNumber": 1,
+      "trackNumber": 1,
+      "displayTrackNumber": 1,
+      "trackSequenceNumber": 1,
+      "isHidden": false,
+      "isGapless": false,
+      "isBonus": false,
+      "grId": "A10396ZTR000DD77DH",
+      "overrideArtistName": "Francesco Gabbani",
+      "overrideTitle": "Einstein (E=mc²)",
+      "overrideDuration": 211,
+      "overrideRecordingTitle": "Einstein (E=mc²)",
+      "recording": {
+        "recordingId": 738273,
+        "site": {
+          "name": "BMG Rights Management Italy",
+          "code": "BGIT",
+          "country": "IT"
+        },
+        "royaltyCompliance": "NONCOMPLIANT",
+        "entityStatus": "INCOMPLIANT",
+        "lockedStatus": "LOCKED",
+        "businessUnit": "MASTERS",
+        "category": "VOCAL",
+        "recordingType": "Audiovisual (Music Video)",
+        "isrc": "IT7ZU2000039",
+        "artistName": "Francesco Gabbani",
+        "title": "Einstein (E=mc²)",
+        "internalVersionTitle": "Explicit",
+        "recordingTitle": "Einstein (E=mc²)",
+        "recordingDate": "2020-06-01T08:31:43:000",
+        "duration": 211,
+        "durationFormatted": "00:03:31",
+        "ownershipType": "OWNED",
+        "genre": {
+          "name": "Pop",
+          "subGenreName": "",
+          "hasPartnerGenre": true,
+          "hasPartnerSubGenre": false,
+          "isClassical": false
+        },
+        "explicitIndicator": "EXPLICIT",
+        "copyrightYear": 2020,
+        "isRemaster": false,
+        "isCover": false,
+        "isRerecording": false,
+        "isOriginalRecording": false,
+        "isDjmix": false,
+        "isTribute": false,
+        "copyrightOwner": "Bmg Rights Management (Italy) S.r.l.",
+        "copyrightNotice": "(C) 2020 BMG Rights Management (Italy) S.r.l.",
+        "isLive": false,
+        "isRemix": false,
+        "isCatalogueAcquisition": false,
+        "isMasteredITunes": false,
+        "containsSample": false,
+        "isMedley": false,
+        "recordingLocation": "Mono Studion, Milano",
+        "repertoireOwnerCompany": {
+          "name": "BMG Rights Management (Italy) SRL",
+          "code": "BGIT",
+          "country": {
+            "code": "IT",
+            "name": "Italy"
+          }
+        },
+        "label": {
+          "id": 0,
+          "name": "BMG Rights Management Italy S.R.L.",
+          "gvlLabelCode": "19813",
+          "labelCode": "BGIT"
+        },
+        "metadataLanguage": {
+          "name": "it",
+          "code": "Italian"
+        },
+        "recordingLanguage": {
+          "name": "Italian",
+          "code2": "it",
+          "code3": "ita"
+        },
+        "recordingCountry": {
+          "name": "Italy",
+          "code": "IT"
+        },
+        "created": "2020-10-15T17:18:17:143",
+        "modified": "2024-04-07T18:31:24:233",
+        "menaIndicators": [],
+        "externalCodes": [
+          {
+            "externalCodeText": "lQZPkD-RbU0",
+            "externalCodeType": "YOUTUBE:VIDEO_ID"
+          },
+          {
+            "externalCodeText": "30445073827394",
+            "externalCodeType": "SCPP Internal Code"
+          },
+          {
+            "externalCodeText": "A760780350153294",
+            "externalCodeType": "YOUTUBE:MV_ASSET_ID"
+          }
+        ],
+        "rightsOwnerBeginDate": "2020-09-11 08:34:12.0",
+        "recordingContributors": [
+          {
+            "recordingContributorId": 1871421,
+            "recordingContributorSeqNo": 0,
+            "isArtist": true,
+            "isPrimary": true,
+            "excludeFromSupplyChain": false,
+            "contributor": {
+              "contributorId": 84175,
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "Masters",
+              "groupType": "SOLO",
+              "firstName": "Francesco",
+              "lastName": "Gabbani",
+              "fullName": "Francesco Gabbani",
+              "repertoireOwners": [
+                {
+                  "name": "BMG Rights Management (Italy) SRL",
+                  "code": "BGIT"
+                }
+              ],
+              "externalCodes": [
+                {
+                  "externalCodeText": "5lzqFxifzjxYHGJxuwQqtR",
+                  "externalCodeType": "Spotify Artist Id"
+                },
+                {
+                  "externalCodeText": "0000000463212043",
+                  "externalCodeType": "ISNI"
+                }
+              ]
+            },
+            "roles": [
+              {
+                "isPrimary": false,
+                "name": "Vocals",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              },
+              {
+                "isPrimary": true,
+                "name": "MainArtist",
+                "isArtist": true,
+                "ppiPayable": false,
+                "isDisplay": true
+              }
+            ],
+            "ppiCategory": "CONTRACTED_FEATURED_ARTIST"
+          },
+          {
+            "recordingContributorId": 1871422,
+            "recordingContributorSeqNo": 1,
+            "isArtist": false,
+            "isPrimary": false,
+            "excludeFromSupplyChain": false,
+            "contributor": {
+              "contributorId": 249320,
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "Masters",
+              "groupType": "SOLO",
+              "firstName": "Matteo",
+              "lastName": "Cantaluppi",
+              "fullName": "Matteo Cantaluppi",
+              "repertoireOwners": []
+            },
+            "roles": [
+              {
+                "isPrimary": false,
+                "name": "Moog Bass",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              },
+              {
+                "isPrimary": false,
+                "name": "Producer",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              },
+              {
+                "isPrimary": false,
+                "name": "Sound Engineer",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              }
+            ],
+            "ppiCategory": "NON_FEATURED_ARTIST"
+          },
+          {
+            "recordingContributorId": 1871423,
+            "recordingContributorSeqNo": 2,
+            "isArtist": false,
+            "isPrimary": false,
+            "excludeFromSupplyChain": false,
+            "contributor": {
+              "contributorId": 250097,
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "Masters",
+              "groupType": "SOLO",
+              "firstName": "Raffaele",
+              "lastName": "Scogna",
+              "fullName": "Raffaele Scogna",
+              "repertoireOwners": []
+            },
+            "roles": [
+              {
+                "isPrimary": false,
+                "name": "Arranger",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              },
+              {
+                "isPrimary": false,
+                "name": "Piano",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              }
+            ],
+            "ppiCategory": "NON_FEATURED_ARTIST"
+          },
+          {
+            "recordingContributorId": 1871424,
+            "recordingContributorSeqNo": 3,
+            "isArtist": false,
+            "isPrimary": false,
+            "excludeFromSupplyChain": false,
+            "contributor": {
+              "contributorId": 250098,
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "Masters",
+              "groupType": "SOLO",
+              "firstName": "Carmelo Emanuele",
+              "lastName": "Patti",
+              "fullName": "Carmelo Emanuele Patti",
+              "repertoireOwners": []
+            },
+            "roles": [
+              {
+                "isPrimary": false,
+                "name": "Violin",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              },
+              {
+                "isPrimary": false,
+                "name": "Viola",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              }
+            ],
+            "ppiCategory": "NON_FEATURED_ARTIST"
+          },
+          {
+            "recordingContributorId": 1871425,
+            "recordingContributorSeqNo": 4,
+            "isArtist": false,
+            "isPrimary": false,
+            "excludeFromSupplyChain": false,
+            "contributor": {
+              "contributorId": 250099,
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "Masters",
+              "groupType": "SOLO",
+              "firstName": "Isabel Gallego",
+              "lastName": "Lanau",
+              "fullName": "Isabel Gallego Lanau",
+              "repertoireOwners": []
+            },
+            "roles": [
+              {
+                "isPrimary": false,
+                "name": "Violin",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              }
+            ],
+            "ppiCategory": "NON_FEATURED_ARTIST"
+          },
+          {
+            "recordingContributorId": 1871426,
+            "recordingContributorSeqNo": 5,
+            "isArtist": false,
+            "isPrimary": false,
+            "excludeFromSupplyChain": false,
+            "contributor": {
+              "contributorId": 258200,
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "Masters",
+              "groupType": "SOLO",
+              "firstName": "Valentina",
+              "lastName": "Sgarbossa",
+              "fullName": "Valentina Sgarbossa",
+              "repertoireOwners": [
+                {
+                  "name": "BMG Rights Management (Italy) SRL",
+                  "code": "BGIT"
+                }
+              ]
+            },
+            "roles": [
+              {
+                "isPrimary": false,
+                "name": "Cello",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              }
+            ],
+            "ppiCategory": "NON_FEATURED_ARTIST"
+          },
+          {
+            "recordingContributorId": 1871427,
+            "recordingContributorSeqNo": 6,
+            "isArtist": false,
+            "isPrimary": false,
+            "excludeFromSupplyChain": false,
+            "contributor": {
+              "contributorId": 190639,
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "Masters",
+              "groupType": "SOLO",
+              "firstName": "Ivan Antonio",
+              "lastName": "Rossi",
+              "fullName": "Ivan Antonio Rossi",
+              "repertoireOwners": [
+                {
+                  "name": "BMG Rights Management (Italy) SRL",
+                  "code": "BGIT"
+                }
+              ]
+            },
+            "roles": [
+              {
+                "isPrimary": false,
+                "name": "Sound Engineer",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              }
+            ],
+            "ppiCategory": "STUDIO_PERSONNEL"
+          },
+          {
+            "recordingContributorId": 1871430,
+            "recordingContributorSeqNo": 7,
+            "isArtist": false,
+            "isPrimary": false,
+            "excludeFromSupplyChain": false,
+            "contributor": {
+              "contributorId": 190193,
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "Masters",
+              "groupType": "SOLO",
+              "firstName": "Tiziano",
+              "lastName": "Russo",
+              "fullName": "Tiziano Russo",
+              "repertoireOwners": [
+                {
+                  "name": "BMG Rights Management (Italy) SRL",
+                  "code": "BGIT"
+                }
+              ]
+            },
+            "roles": [
+              {
+                "isPrimary": false,
+                "name": "Video Director",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              }
+            ],
+            "ppiCategory": "STUDIO_PERSONNEL"
+          },
+          {
+            "recordingContributorId": 1871432,
+            "recordingContributorSeqNo": 8,
+            "isArtist": false,
+            "isPrimary": false,
+            "excludeFromSupplyChain": false,
+            "contributor": {
+              "contributorId": 259148,
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "Masters",
+              "groupType": "SOLO",
+              "firstName": "Barbara",
+              "lastName": "Simone Roberti",
+              "fullName": "Barbara Simone Roberti",
+              "repertoireOwners": [
+                {
+                  "name": "BMG Rights Management (Italy) SRL",
+                  "code": "BGIT"
+                }
+              ]
+            },
+            "roles": [
+              {
+                "isPrimary": false,
+                "name": "Producer",
+                "isArtist": false,
+                "ppiPayable": false,
+                "isDisplay": false
+              }
+            ],
+            "ppiCategory": "STUDIO_PERSONNEL"
+          }
+        ],
+        "songs": [
+          {
+            "recordingSongId": 729010,
+            "recordingSongSeqNo": 0,
+            "song": {
+              "songId": 440715,
+              "site": {
+                "name": "BMG Rights Management Italy",
+                "code": "BGIT",
+                "country": "IT"
+              },
+              "royaltyCompliance": "COMPLIANT",
+              "entityStatus": "COMPLIANT",
+              "lockedStatus": "LOCKED",
+              "businessUnit": "MASTERS",
+              "title": "Einstein (E=mc²)",
+              "composerName": "Francesco Gabbani, Filippo Gabbani, Luca Chiaravalli",
+              "publisherName": "BMG Rights Management (Italy) S.r.l. / Music Union S.r.l.",
+              "isPublicDomain": false
+            },
+            "songContributors": [
+              {
+                "songContributorId": 836367,
+                "songContribitutorSeqNo": 0,
+                "contributor": {
+                  "contributorId": 84175,
+                  "entityStatus": "COMPLIANT",
+                  "lockedStatus": "LOCKED",
+                  "businessUnit": "MASTERS",
+                  "groupType": "SOLO",
+                  "firstName": "Francesco",
+                  "lastName": "Gabbani",
+                  "fullName": "Francesco Gabbani",
+                  "repertoireOwners": [
+                    {
+                      "name": "BMG Rights Management (Italy) SRL",
+                      "code": "BGIT"
+                    }
+                  ],
+                  "externalCodes": [
+                    {
+                      "externalCodeText": "5lzqFxifzjxYHGJxuwQqtR",
+                      "externalCodeType": "Spotify Artist Id"
+                    },
+                    {
+                      "externalCodeText": "0000000463212043",
+                      "externalCodeType": "ISNI"
+                    }
+                  ]
+                },
+                "roles": [
+                  {
+                    "isPrimary": false,
+                    "name": "Composer",
+                    "isArtist": false,
+                    "ppiPayable": false,
+                    "isDisplay": false
+                  }
+                ],
+                "isTraditional": false
+              },
+              {
+                "songContributorId": 836368,
+                "songContribitutorSeqNo": 1,
+                "contributor": {
+                  "contributorId": 99102,
+                  "entityStatus": "COMPLIANT",
+                  "lockedStatus": "LOCKED",
+                  "businessUnit": "MASTERS",
+                  "groupType": "SOLO",
+                  "firstName": "Filippo",
+                  "lastName": "Gabbani",
+                  "fullName": "Filippo Gabbani",
+                  "repertoireOwners": [
+                    {
+                      "name": "BMG Rights Management (Italy) SRL",
+                      "code": "BGIT"
+                    }
+                  ]
+                },
+                "roles": [
+                  {
+                    "isPrimary": false,
+                    "name": "Composer",
+                    "isArtist": false,
+                    "ppiPayable": false,
+                    "isDisplay": false
+                  }
+                ],
+                "isTraditional": false
+              },
+              {
+                "songContributorId": 836369,
+                "songContribitutorSeqNo": 2,
+                "contributor": {
+                  "contributorId": 141207,
+                  "entityStatus": "COMPLIANT",
+                  "lockedStatus": "LOCKED",
+                  "businessUnit": "MASTERS",
+                  "groupType": "SOLO",
+                  "firstName": "Luca",
+                  "lastName": "Chiaravalli",
+                  "fullName": "Luca Chiaravalli",
+                  "repertoireOwners": [
+                    {
+                      "name": "BMG Rights Management (Italy) SRL",
+                      "code": "BGIT"
+                    }
+                  ]
+                },
+                "roles": [
+                  {
+                    "isPrimary": false,
+                    "name": "Composer",
+                    "isArtist": false,
+                    "ppiPayable": false,
+                    "isDisplay": false
+                  }
+                ],
+                "isTraditional": false
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "id": 731151,
+            "isrc": "ITDV92000151",
+            "entityStatus": "COMPLIANT",
+            "artistName": "Francesco Gabbani",
+            "title": "Einstein (E=mc²)",
+            "versionTitle": "",
+            "recordingType": {
+              "name": "Audio",
+              "recordingGroup": "AUDIO",
+              "isClip": false,
+              "isClipParent": false,
+              "id": 1
+            },
+            "earliestreleasedate": "2020-10-16T00:00:00:000",
+            "idx": 0
+          }
+        ]
+      },
+      "finalTitleName": "Einstein (E=mc²)",
+      "finalSubTitleName": "",
+      "mediaFormat": "Video",
+      "ref": "A1",
+      "rRef": "R1"
+    }
+  ]
+}

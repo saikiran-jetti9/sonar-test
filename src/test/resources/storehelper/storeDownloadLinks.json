@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "asset": {
+        "id": 1213106,
+        "upload_id": 1215709,
+        "itemType": "Jpeg",
+        "contentType": "image/jpeg",
+        "colorType": "RGB",
+        "width": 1920,
+        "height": 1080,
+        "dpi": null,
+        "crop": "1920:1080:0:0",
+        "deadPixels": false,
+        "lzwCompressed": false,
+        "fileSize": 1851478,
+        "originalFileName": "PXS_NZC_OysterBeds_16x9_1920x1080_LyricVideo_Thumbnail_02.jpg",
+        "uploadFileName": "392_a34f283e-e114-4391-a386-8d54fc1358c3.jpg",
+        "nasFilePath": "/StoreProduction/Assets/complete/392_a34f283e-e114-4391-a386-8d54fc1358c3.jpg",
+        "checksum": "d3045c215c20645290d0cad765e93c70",
+        "externalDownloadUrl": "https://storage.googleapis.com/store-ext-url-assets-prod/IMG-1213106.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=url-signer%40bmg-supplychain-prod.iam.gserviceaccount.com%2F20240816%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240816T101738Z&X-Goog-Expires=604800&X-Goog-SignedHeaders=host&X-Goog-Signature=5cff9032f3ae4cbd2d5ce323ebb8121b1e164e7c6fc60f59717e67b537af32e404c36d1f2a5f9b78986781ccdcdbb1cb42c417dfb9c0ed28729485eade6bd9d7869250c7e4d20e7421682350b17418899a7ef49d4b138ad155bff7ac46c0183d0e77b0ff9526268567cfa8c22da2dbde308bbff0bbdec8a27f420b0fbd3932faeab64e9bfaf640afb7d798d91c3364695b21419c81f7eab9e5ee857c7069076fd5c8656fb4a84a664c907491dc193e455807b017bb056e108a82bc742ec1199f80636c3cb8c0512b6ad9131a16f3f2d2c33a92cddde784d8b42219c764da8830cb52e6f67e346f64be07c396f27cc16a8d506e3000d48074dccc64a1fd58cb4f",
+        "externalUrlCreatedDate": "20240816T101738Z",
+        "externalUrlValidity": 604800
+      },
+      "transcodeDetails": [
+        {
+          "transcodeId": "1215709_jpg",
+          "uploadId": 1215709,
+          "itemType": "jpg",
+          "contentType": "image/jpeg",
+          "colorType": "RGB",
+          "dimension": "1920X1080px",
+          "dpi": "300dpi",
+          "filesize": 252792,
+          "fileName": "392_a34f283e-e114-4391-a386-8d54fc1358c3.jpg.jpg",
+          "checksum": "cba2a9cad1a43f38c80969e21595e510",
+          "transCodedDate": "16-Aug-24",
+          "storeId": 1213106,
+          "nasFilePath": "/StoreProduction/Assets_TS/transcodes/392_a34f283e-e114-4391-a386-8d54fc1358c3.jpg.jpg",
+          "externalDownloadUrl": "https://storage.googleapis.com/store-ext-url-assets-prod/IMG-1213106.jpg.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=url-signer%40bmg-supplychain-prod.iam.gserviceaccount.com%2F20240816%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240816T101821Z&X-Goog-Expires=604800&X-Goog-SignedHeaders=host&X-Goog-Signature=023b40d0030ad9a97d820970d3f9c385d8d42e7fb9847b324fc6d7f0b58312ba785371cc81a47df14335979ccacc66aaa159f94adb45dd0b966d5125d46160d6eb27521f9845706ce4140b335623365082fd554d89931bdc86b7d83a4c206dcc6646e0fe2ca2992a055acbc22bf6bcf7cf9321433829d88122470ff5f1724c659e552583880be6ef8506a1d701366373e489177e32a90e3549c3a0d49ed7a4d859b0beb265693385e32339dec4625aa137c1e12e3317d34dc41ca434068ba9e1b2ae9120668fe10a9cf4f9b855ef9c4bf402306a9a621f2a0db19c17f17b476d4666aba481dec9d38409095b208cf566064be569b0fffb5c5e0d36da3692c9f5",
+          "externalUrlCreatedDate": "20240816T101821Z",
+          "externalUrlValidity": 604800
+        }
+      ]
+    },
+    {
+      "asset": {
+        "id": 1213190,
+        "upload_id": 1215793,
+        "itemType": "Video",
+        "contentType": "application/octet-stream",
+        "fileSize": 3038694853,
+        "originalFileName": "PXS_NZC_OysterBeds_16x9_1920x1080_LyricVideo_FL_03.mov",
+        "uploadFileName": "471_e4f6bb1a-b472-216a-d68a-9d291495ebe7.mov",
+        "nasFilePath": "/StoreProduction/Assets/complete/471_e4f6bb1a-b472-216a-d68a-9d291495ebe7.mov",
+        "checksum": "b1106ce79b3150bc3b07657f16687bdf",
+        "externalDownloadUrl": "https://storage.googleapis.com/store-ext-url-assets-prod/VID-1213190.mov?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=url-signer%40bmg-supplychain-prod.iam.gserviceaccount.com%2F20240816%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240816T101736Z&X-Goog-Expires=604800&X-Goog-SignedHeaders=host&X-Goog-Signature=1ad3565f5b551d258812a194075236764dca67dd59207680f974f849b084cf4067ea48773cc355162bcfd6d66a9e6541177ca93028d85e6a3bd0ccd77243b6eeb423f913df6058ac2f231fefdc6e5e761822ed836ea4dae3ea117e67d4ffe0a4eb8ec6c867da521141e1ba0149106558b9d815f32a4c533e72291a4afa8b72c78d6a96d01130f488600b5f522e5a0b8d5c0502778906433c63efbcb034dfa258ea9e9a0185342f49e86ada0a23fee0e45e6d353292e69cf89ac821879f384a805451c6c5a54a651fac08163ecae1eb775bfa42dafa0d9325fcc85e7a9c7cc0ccb590c6b785d45a5932e80cde28aca0b36c07849d74a87ee04402f2e9741ac802",
+        "externalUrlCreatedDate": "20240816T101736Z",
+        "externalUrlValidity": 604800
+      },
+      "transcodeDetails": []
+    }
+  ]
+}

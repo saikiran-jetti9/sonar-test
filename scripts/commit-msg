@@ -1,0 +1,25 @@
+#!/bin/bash
+
+commit_msg_file="$1"
+
+# Check if the commit message file exists
+if [ ! -f "$commit_msg_file" ]; then
+    echo "Error: Commit message file '$commit_msg_file' not found."
+    exit 1
+fi
+
+# Read the commit message from the file
+commit_msg=$(cat "$commit_msg_file")
+
+# Define the regex pattern for the commit message format
+pattern='^DR-[0-9]+ .+$'
+
+# Check if the commit message matches the pattern
+echo "Commit message: $commit_msg"
+if [[ "$commit_msg" =~ $pattern ]]; then
+    echo "Message matches the pattern."
+else
+    echo "Commit message does not match the pattern."
+    exit 1
+fi
+echo "Commit message validation successful."

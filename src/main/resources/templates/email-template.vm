@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workflow Instance Status</title>
+</head>
+<body>
+<p>Dear $recipientName,</p>
+
+<p>The following delivery ended in <strong>$status</strong>:</p>
+
+<p>
+    $barcode | $artist | $title | $formatName | $releaseDate
+</p>
+
+<p>
+    Process Name: <strong>$processName</strong><br>
+    Instance Number: <strong>$instanceNumber</strong>
+</p>
+
+<p>
+    <a href="$instanceUrl">$instanceUrl</a>
+</p>
+
+<p>Please address any questions to <a href="mailto:supplychain@bmg.com">supplychain@bmg.com</a></p>
+
+<p>Many Thanks.<br>
+    BMG Supply Chain<br>
+    <a href="mailto:supplychain@bmg.com">supplychain@bmg.com</a>
+</p>
+</body>
+</html>

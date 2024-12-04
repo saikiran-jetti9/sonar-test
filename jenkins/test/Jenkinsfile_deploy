@@ -1,0 +1,20 @@
+def cause = currentBuild.getBuildCauses('hudson.model.Cause$UserIdCause')
+
+pipeline {
+
+    agent { label 'bmg-supplychain-deliver-upgrade-test-wrk' }
+
+    environment {
+      GITCREDENTIALS=credentials('jenkins-sa-test')
+    }
+
+    stages {
+      stage('Deploy') {
+          steps {
+              // Run deploy script
+              sh "chmod +x ./scripts_jenkins/deploy_gcp.sh"
+              sh "./scripts_jenkins/deploy_gcp.sh test ${GITCREDENTIALS_USR} ${GITCREDENTIALS_PSW} '${cause.userId}'"
+          }
+      }
+    }
+}

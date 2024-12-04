@@ -1,0 +1,429 @@
+{
+  "releaseProduct": {
+    "messageId": "99002176-75c4-4947-bf50-3e5257bf7382",
+    "messageDate": "2022-02-24T16:25:41.584Z",
+    "approvalId": 91919,
+    "releaseId": "24347",
+    "captureProductId": "123879",
+    "barcode": "0859381165675",
+    "productCode": "G010001715988T",
+    "artistName": "Paolo Conte",
+    "title": "Gli Anni '70",
+    "versionTitle": "",
+    "internalVersionTitle": "",
+    "isMultipleArtists": false,
+    "releaseDate": "2022-04-01",
+    "releaseTimed": false,
+    "releaseTimeAndZone": "",
+    "releaseDateDateTime": "",
+    "approveStatus": "APPROVED",
+    "approveDate": "2022-02-20",
+    "marketingRightsCodeName": "World",
+    "contractualRightsCodeName": "World",
+    "financeCategory": "FRONTLINE",
+    "repertoireOwnerCompany": {
+      "id": "7",
+      "name": "BMG Rights Management (Italy) SRL"
+    },
+    "label": { "id": "8", "name": "BMG Rights Management Italy S.R.L." },
+    "format": {
+      "id": "14",
+      "name": "Digital Package",
+      "packageIndicator": true,
+      "physicalIndicator": false,
+      "albumSingle": "ALBUM"
+    },
+    "genre": { "id": "107", "name": "Pop" },
+    "parentalAdvisoryArtworkIndicator": "NOT_APPLICABLE",
+    "parentalAdvisoryLyricsIndicator": "NOT_APPLICABLE",
+    "productAssets": [
+      {
+        "storeId": "433596",
+        "assetType": "Image",
+        "itemType": "Tiff",
+        "supplyChain": true,
+        "assetSubType": "Packshot",
+        "ddexType": "Image",
+        "ddexResourceType": "FrontCoverImage"
+      }
+    ],
+    "components": [
+      {
+        "captureId": "124015",
+        "format": "Digital Audio Album",
+        "componentNumber": 1,
+        "tracks": [
+          {
+            "trackId": 151968,
+            "idx": 9,
+            "captureTrackId": "663488",
+            "captureRecordingId": "158156",
+            "sideNumber": 0,
+            "trackNumber": 9,
+            "instantGratOverrideTimeAndZone": "",
+            "individualAvailable": true,
+            "priceTier": "T1",
+            "priceDescription": "Premium-Tier Track price",
+            "selectedAsset": {
+              "storeId": "433618",
+              "assetType": "Audio",
+              "itemType": "Wav",
+              "supplyChain": true,
+              "fileType": {
+                "bitRate": 1411000,
+                "audioCodec": "PCM signed 16-bit little-endian",
+                "duration": 157330,
+                "sampleRate": 44100,
+                "sampleSize": 16,
+                "channels": 2
+              },
+              "ddexType": "SoundRecording",
+              "ddexResourceType": "MusicalWorkSoundRecording"
+            },
+            "isrc": "ITB007401270",
+            "previewStartTime": 45,
+            "distributors": [
+              {
+                "distributorName": "ADA",
+                "distributorId": "1",
+                "distributorTerritories": [{ "isoCode": "IN" }]
+              }
+            ]
+          },
+          {
+            "trackId": 151973,
+            "idx": 2,
+            "captureTrackId": "663481",
+            "captureRecordingId": "158181",
+            "sideNumber": 0,
+            "trackNumber": 2,
+            "instantGratOverrideTimeAndZone": "",
+            "individualAvailable": true,
+            "priceTier": "T1",
+            "priceDescription": "Premium-Tier Track price",
+            "selectedAsset": {
+              "storeId": "433611",
+              "assetType": "Audio",
+              "itemType": "Wav",
+              "supplyChain": true,
+              "fileType": {
+                "bitRate": 1411000,
+                "audioCodec": "PCM signed 16-bit little-endian",
+                "duration": 236170,
+                "sampleRate": 44100,
+                "sampleSize": 16,
+                "channels": 2
+              },
+              "ddexType": "SoundRecording",
+              "ddexResourceType": "MusicalWorkSoundRecording"
+            },
+            "isrc": "ITB007500829",
+            "previewStartTime": 45,
+            "distributors": [
+              {
+                "distributorName": "ADA",
+                "distributorId": "1",
+                "distributorTerritories": [{ "isoCode": "IN" }]
+              }
+            ]
+          },
+          {
+            "trackId": 151974,
+            "idx": 3,
+            "captureTrackId": "663482",
+            "captureRecordingId": "75706",
+            "sideNumber": 0,
+            "trackNumber": 3,
+            "instantGratOverrideTimeAndZone": "",
+            "individualAvailable": true,
+            "priceTier": "T1",
+            "priceDescription": "Premium-Tier Track price",
+            "selectedAsset": {
+              "storeId": "433612",
+              "assetType": "Audio",
+              "itemType": "Wav",
+              "supplyChain": true,
+              "fileType": {
+                "bitRate": 1411000,
+                "audioCodec": "PCM signed 16-bit little-endian",
+                "duration": 149670,
+                "sampleRate": 44100,
+                "sampleSize": 16,
+                "channels": 2
+              },
+              "ddexType": "SoundRecording",
+              "ddexResourceType": "MusicalWorkSoundRecording"
+            },
+            "isrc": "ITB007900746",
+            "previewStartTime": 45,
+            "distributors": [
+              {
+                "distributorName": "ADA",
+                "distributorId": "1",
+                "distributorTerritories": [{ "isoCode": "IN" }]
+              }
+            ]
+          }
+        ],
+        "componentAssets": [
+          {
+            "storeId": "433591",
+            "assetType": "Image",
+            "itemType": "Tiff",
+            "supplyChain": true,
+            "assetSubType": "Packshot",
+            "ddexType": "Image",
+            "ddexResourceType": "FrontCoverImage"
+          }
+        ],
+        "releaseDate": "2022-04-01"
+      },
+      {
+        "captureId": "123880",
+        "format": "Digital Audio Album",
+        "componentNumber": 0,
+        "tracks": [
+          {
+            "trackId": 151978,
+            "idx": 0,
+            "captureTrackId": "663467",
+            "captureRecordingId": "76038",
+            "sideNumber": 0,
+            "trackNumber": 0,
+            "instantGratOverrideTimeAndZone": "",
+            "individualAvailable": true,
+            "priceTier": "T1",
+            "priceDescription": "Premium-Tier Track price",
+            "selectedAsset": {
+              "storeId": "433597",
+              "assetType": "Audio",
+              "itemType": "Wav",
+              "supplyChain": true,
+              "fileType": {
+                "bitRate": 1411000,
+                "audioCodec": "PCM signed 16-bit little-endian",
+                "duration": 175330,
+                "sampleRate": 44100,
+                "sampleSize": 16,
+                "channels": 2
+              },
+              "ddexType": "SoundRecording",
+              "ddexResourceType": "MusicalWorkSoundRecording"
+            },
+            "isrc": "ITB007500835",
+            "previewStartTime": 45,
+            "distributors": [
+              {
+                "distributorName": "ADA",
+                "distributorId": "1",
+                "distributorTerritories": [{ "isoCode": "IN" }]
+              }
+            ]
+          },
+          {
+            "trackId": 151979,
+            "idx": 11,
+            "captureTrackId": "663478",
+            "captureRecordingId": "158157",
+            "sideNumber": 0,
+            "trackNumber": 11,
+            "instantGratOverrideTimeAndZone": "",
+            "individualAvailable": true,
+            "priceTier": "T1",
+            "priceDescription": "Premium-Tier Track price",
+            "selectedAsset": {
+              "storeId": "433608",
+              "assetType": "Audio",
+              "itemType": "Wav",
+              "supplyChain": true,
+              "fileType": {
+                "bitRate": 1411000,
+                "audioCodec": "PCM signed 16-bit little-endian",
+                "duration": 215510,
+                "sampleRate": 44100,
+                "sampleSize": 16,
+                "channels": 2
+              },
+              "ddexType": "SoundRecording",
+              "ddexResourceType": "MusicalWorkSoundRecording"
+            },
+            "isrc": "ITB007401271",
+            "previewStartTime": 45,
+            "distributors": [
+              {
+                "distributorName": "ADA",
+                "distributorId": "1",
+                "distributorTerritories": [{ "isoCode": "IN" }]
+              }
+            ]
+          },
+          {
+            "trackId": 151988,
+            "idx": 4,
+            "captureTrackId": "663471",
+            "captureRecordingId": "158155",
+            "sideNumber": 0,
+            "trackNumber": 4,
+            "instantGratOverrideTimeAndZone": "",
+            "individualAvailable": true,
+            "priceTier": "T1",
+            "priceDescription": "Premium-Tier Track price",
+            "selectedAsset": {
+              "storeId": "433601",
+              "assetType": "Audio",
+              "itemType": "Wav",
+              "supplyChain": true,
+              "fileType": {
+                "bitRate": 1411000,
+                "audioCodec": "PCM signed 16-bit little-endian",
+                "duration": 256670,
+                "sampleRate": 44100,
+                "sampleSize": 16,
+                "channels": 2
+              },
+              "ddexType": "SoundRecording",
+              "ddexResourceType": "MusicalWorkSoundRecording"
+            },
+            "isrc": "ITB007401269",
+            "previewStartTime": 45,
+            "distributors": [
+              {
+                "distributorName": "ADA",
+                "distributorId": "1",
+                "distributorTerritories": [{ "isoCode": "IN" }]
+              }
+            ]
+          },
+          {
+            "trackId": 151985,
+            "idx": 5,
+            "captureTrackId": "663472",
+            "captureRecordingId": "75680",
+            "sideNumber": 0,
+            "trackNumber": 5,
+            "instantGratOverrideTimeAndZone": "",
+            "individualAvailable": true,
+            "priceTier": "T1",
+            "priceDescription": "Premium-Tier Track price",
+            "selectedAsset": {
+              "storeId": "433602",
+              "assetType": "Audio",
+              "itemType": "Wav",
+              "supplyChain": true,
+              "fileType": {
+                "bitRate": 1411000,
+                "audioCodec": "PCM signed 16-bit little-endian",
+                "duration": 213490,
+                "sampleRate": 44100,
+                "sampleSize": 16,
+                "channels": 2
+              },
+              "ddexType": "SoundRecording",
+              "ddexResourceType": "MusicalWorkSoundRecording"
+            },
+            "isrc": "ITB007500838",
+            "previewStartTime": 45,
+            "distributors": [
+              {
+                "distributorName": "ADA",
+                "distributorId": "1",
+                "distributorTerritories": [{ "isoCode": "IN" }]
+              }
+            ]
+          }
+        ],
+        "componentAssets": [
+          {
+            "storeId": "433596",
+            "assetType": "Image",
+            "itemType": "Tiff",
+            "supplyChain": true,
+            "assetSubType": "Packshot",
+            "ddexType": "Image",
+            "ddexResourceType": "FrontCoverImage"
+          }
+        ],
+        "releaseDate": "2022-04-01"
+      }
+    ],
+    "distributors": [
+      {
+        "distributorName": "ADA",
+        "distributorId": "1",
+        "distributorTerritories": [
+          {
+            "isoCode": "IN",
+            "releaseDate": "2022-04-01",
+            "releaseDateDateTime": "",
+            "currency": "Euro",
+            "permanentDownloadDate": "",
+            "subscriptionStreamingDate": "",
+            "adSupportedStreamingDate": "",
+            "euroPpdBmgCode": "Bundle15",
+            "gbpPpdBmgCode": "Bundle15",
+            "usdPpdBmgCode": "Bundle15",
+            "isAvailableForSale": true,
+            "transitionDate": "2022-04-01T00:00"
+          }
+        ],
+        "retailers": { "exclusives": [], "exclusions": [] }
+      }
+    ],
+    "consumerSynopsis": "",
+    "changeReason": "Label Request",
+    "productSummary": {
+      "identifier": "0859381165675",
+      "artistDisplayName": "Paolo Conte",
+      "productTitle": "Gli Anni '70",
+      "label": "BMG Rights Management Italy S.R.L.",
+      "genre": "Pop",
+      "preOrderDate": "",
+      "releaseDate": "1998-07-29",
+      "productApprover": "Release System",
+      "emailIdProductApprover": "",
+      "approvalDate": "2022-02-20",
+      "approvalId": "91919",
+      "issueType": "New Product",
+      "priority": "MINOR",
+      "configuration": "DIGITAL",
+      "format": "Digital Package",
+      "timedRelease": "NO",
+      "pricing": "€14.99/£13.99/$14.99",
+      "euroPpdBmgCode": "Bundle15",
+      "gbpPpdBmgCode": "Bundle15",
+      "usdPpdBmgCode": "Bundle15",
+      "exclusivity": "",
+      "description": {
+        "artistPages": [],
+        "instantGratTracks": [],
+        "albumOnlyTracks": []
+      },
+      "projectCode": "BGIT-59467",
+      "projectName": "Gli Anni '70",
+      "summary": "Paolo Conte / Gli Anni '70 / Digital Package(SD)",
+      "preOrderTimeAndZone": "",
+      "releaseTimeAndZone": "",
+      "audioQuality": "STANDARD_DEFINITION"
+    },
+    "audioQuality": "STANDARD_DEFINITION",
+    "digitalAttributes": {
+      "retailers": [{ "exclusives": [], "exclusions": [] }],
+      "previewClipsAvailability": "",
+      "previewClipsAvailabilityDate": "",
+      "permanentDownload": false,
+      "permanentDownloadDate": "",
+      "subscriptionStreaming": true,
+      "subscriptionStreamingDate": "",
+      "adSupportStreaming": true,
+      "adSupportedStreamingDate": "",
+      "masteringEngineerStudio": "",
+      "masteringStudioEmailAddress": ""
+    },
+    "tracks": [],
+    "preOrderTimeAndZone": "",
+    "isDataOnlyTrigger": false,
+    "assetOptions": "SC Assets Only",
+    "ddexPartyId": "PADPIDA2011072101T",
+    "ddexPartyName": "Spotify"
+  }
+}

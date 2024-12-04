@@ -1,0 +1,29 @@
+pipeline {
+
+    agent none
+
+    stages {
+
+      stage('Clean') {
+
+        agent { label 'bmg-supplychain-deliver-upgrade-preprod-wrk' }
+
+        steps {
+          cleanWs()
+        }
+
+      }
+
+      stage('Docker build and push'){
+
+        agent { label 'bmg-supplychain-deliver-upgrade-preprod-wrk' }
+
+        steps{
+            sh "chmod +x ./scripts_jenkins/build_gcp.sh"
+            sh "./scripts_jenkins/build_gcp.sh preprod"
+        }
+
+      }
+    }
+
+}

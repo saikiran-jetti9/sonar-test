@@ -1,0 +1,492 @@
+{
+  "messageId": "6d6884dd-2eee-4f7b-a26d-2d6537c40c39",
+  "messageDate": "2019-07-11T11:08:28.123Z",
+  "releaseId": "1958",
+  "captureProductId": "17408",
+  "barcode": "4050538027563",
+  "productCode": "538027560",
+  "artistName": "Ruggero Cini",
+  "title": "Test Package - RPD-531",
+  "versionTitle": "test",
+  "internalVersionTitle": "",
+  "isMultipleArtists": false,
+  "releaseDate": "2018-09-09",
+  "approveStatus": "APPROVED",
+  "approveDate": "2018-08-08",
+  "marketingRightsCodeName": "World",
+  "contractualRightsCodeName": "World",
+  "financeCategory": "CATALOGUE",
+  "repertoireOwnerCompany": { "id": "23", "name": "8ball Music BV" },
+  "label": { "id": "103", "name": "538" },
+  "format": {
+    "id": "14",
+    "name": "Digital Package",
+    "packageIndicator": true,
+    "physicalIndicator": false,
+    "albumSingle": "ALBUM"
+  },
+  "genre": { "id": "176", "name": "Alternative" },
+  "parentalAdvisoryArtworkIndicator": "NOT_APPLICABLE",
+  "parentalAdvisoryLyricsIndicator": "NOT_APPLICABLE",
+  "productAssets": [
+    {
+      "storeId": "1338",
+      "assetType": "Image",
+      "itemType": "Other",
+      "supplyChain": false,
+      "assetSubType": "ddp files",
+      "fileSize": 91025356,
+      "originalFileName": "0094637940655_T-8_SoundRecording_02-011.wav",
+      "checksum": "34584c89ca383ba4998a672cc773e952",
+      "uploadFileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-011.wav",
+      "nasFilePath": "/StorePreProd/Assets/complete/4_catalogue27_0094637940655_T-8_SoundRecording_02-011.wav",
+      "newFileName": "4050538027563.wav",
+      "externalDownloadUrl": "4050538027563.wav",
+      "externalUrlCreatedDate": "4050538027563.wav",
+      "externalUrlValidity": "4050538027563.wav",
+      "transcodeDetails": {
+        "transcodeId": "1338_mp3_256",
+        "uploadId": 1338,
+        "itemType": "mp3_256",
+        "contentType": "audio/mpeg",
+        "audioCodec": "MP3 (MPEG audio layer 3)",
+        "bitRate": 256000,
+        "channels": 2,
+        "duration": 516050,
+        "sampleRate": 44100,
+        "sampleSize": 3,
+        "filesize": 16514447,
+        "fileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-011.wav_256.mp3",
+        "checksum": "5addd86cd28ac1dc3a007bf61bbb3191",
+        "transCodedDate": "12-Feb-18",
+        "storeId": 1338,
+        "nasFilePath": "/StorePreProd/Assets_TS/transcodes/4_catalogue27_0094637940655_T-8_SoundRecording_02-011.wav_256.mp3"
+      }
+    },
+    {
+      "storeId": "1339",
+      "assetType": "Image",
+      "itemType": "Tiff",
+      "supplyChain": true,
+      "assetSubType": "Packshot",
+      "ddexType": "Image",
+      "ddexResourceType": "FrontCoverImage",
+      "fileSize": 77672492,
+      "originalFileName": "0094637940655_T-8_SoundRecording_02-012.wav",
+      "checksum": "40d11271b76072dbbe6710273bd46289",
+      "uploadFileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-012.wav",
+      "nasFilePath": "/StorePreProd/Assets/complete/4_catalogue27_0094637940655_T-8_SoundRecording_02-012.wav",
+      "newFileName": "4050538027563.wav",
+      "externalDownloadUrl": "4050538027563.wav",
+      "externalUrlCreatedDate": "4050538027563.wav",
+      "externalUrlValidity": "4050538027563.wav",
+      "transcodeDetails": {
+        "transcodeId": "1339_mp3_256",
+        "uploadId": 1339,
+        "itemType": "mp3_256",
+        "contentType": "audio/mpeg",
+        "audioCodec": "MP3 (MPEG audio layer 3)",
+        "bitRate": 256000,
+        "channels": 2,
+        "duration": 440350,
+        "sampleRate": 44100,
+        "sampleSize": 3,
+        "filesize": 14091955,
+        "fileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-012.wav_256.mp3",
+        "checksum": "a4e5987b3f195fcd4bd3b1ffe2be9c37",
+        "transCodedDate": "12-Feb-18",
+        "storeId": 1339,
+        "nasFilePath": "/StorePreProd/Assets_TS/transcodes/4_catalogue27_0094637940655_T-8_SoundRecording_02-012.wav_256.mp3"
+      }
+    }
+  ],
+  "components": [
+    {
+      "captureId": "17403",
+      "format": "Digital Audio Album",
+      "componentNumber": 1,
+      "tracks": [
+        {
+          "trackId": 13283,
+          "idx": 0,
+          "captureTrackId": "153661",
+          "captureRecordingId": "102732",
+          "sideNumber": 0,
+          "trackNumber": 0,
+          "individualAvailable": true,
+          "priceTier": "T2",
+          "selectedAsset": {
+            "storeId": "1334",
+            "assetType": "Audio",
+            "itemType": "Wav",
+            "supplyChain": true,
+            "fileType": {
+              "bitRate": 1411000,
+              "audioCodec": "PCM signed 16-bit little-endian",
+              "duration": 16280,
+              "sampleRate": 44100,
+              "sampleSize": 16,
+              "channels": 2
+            },
+            "ddexType": "SoundRecording",
+            "ddexResourceType": "MusicalWorkSoundRecording",
+            "fileSize": 70494188,
+            "originalFileName": "0094637940655_T-8_SoundRecording_02-007.wav",
+            "checksum": "3ef6682f5cdf43f6d192da93c6da6626",
+            "uploadFileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-007.wav",
+            "nasFilePath": "/StorePreProd/Assets/complete/4_catalogue27_0094637940655_T-8_SoundRecording_02-007.wav",
+            "newFileName": "4050538027563_02_01.wav",
+            "externalDownloadUrl": "4050538027563_02_01.wav",
+            "externalUrlCreatedDate": "4050538027563_02_01.wav",
+            "externalUrlValidity": "4050538027563_02_01.wav",
+            "transcodeDetails": {
+              "transcodeId": "1334_mp3_256",
+              "uploadId": 1334,
+              "itemType": "mp3_256",
+              "contentType": "audio/mpeg",
+              "audioCodec": "MP3 (MPEG audio layer 3)",
+              "bitRate": 256000,
+              "channels": 2,
+              "duration": 399670,
+              "sampleRate": 44100,
+              "sampleSize": 3,
+              "filesize": 12790431,
+              "fileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-007.wav_256.mp3",
+              "checksum": "748814bd38abc4822604fbf320c4a999",
+              "transCodedDate": "12-Feb-18",
+              "storeId": 1334,
+              "nasFilePath": "/StorePreProd/Assets_TS/transcodes/4_catalogue27_0094637940655_T-8_SoundRecording_02-007.wav_256.mp3"
+            }
+          },
+          "isrc": "GB5KW1800101",
+          "distributors": [
+            {
+              "distributorName": "ADA",
+              "distributorId": "1",
+              "distributorTerritories": [
+                { "isoCode": "AF", "partnerPriceCode": "0.05" },
+                { "isoCode": "AL", "partnerPriceCode": "0.05" },
+                { "isoCode": "AR", "partnerPriceCode": "0.05" },
+                { "isoCode": "CA", "partnerPriceCode": "0.05" },
+                { "isoCode": "DZ", "partnerPriceCode": "0.05" },
+                { "isoCode": "NE", "partnerPriceCode": "0.05" },
+                { "isoCode": "PE", "partnerPriceCode": "0.05" }
+              ]
+            }
+          ]
+        }
+      ],
+      "componentAssets": [
+        {
+          "storeId": "1315",
+          "assetType": "Image",
+          "itemType": "Tiff",
+          "supplyChain": true,
+          "assetSubType": "Booklet",
+          "ddexType": "UserDefinedResource",
+          "ddexResourceType": "Booklet"
+        },
+        {
+          "storeId": "1338",
+          "assetType": "Image",
+          "itemType": "Other",
+          "supplyChain": false,
+          "assetSubType": "ddp files",
+          "fileSize": 91025356,
+          "originalFileName": "0094637940655_T-8_SoundRecording_02-011.wav",
+          "checksum": "34584c89ca383ba4998a672cc773e952",
+          "uploadFileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-011.wav",
+          "nasFilePath": "/StorePreProd/Assets/complete/4_catalogue27_0094637940655_T-8_SoundRecording_02-011.wav",
+          "newFileName": "4050538027563.wav",
+          "externalDownloadUrl": "4050538027563.wav",
+          "externalUrlCreatedDate": "4050538027563.wav",
+          "externalUrlValidity": "4050538027563.wav",
+          "transcodeDetails": {
+            "transcodeId": "1338_mp3_256",
+            "uploadId": 1338,
+            "itemType": "mp3_256",
+            "contentType": "audio/mpeg",
+            "audioCodec": "MP3 (MPEG audio layer 3)",
+            "bitRate": 256000,
+            "channels": 2,
+            "duration": 516050,
+            "sampleRate": 44100,
+            "sampleSize": 3,
+            "filesize": 16514447,
+            "fileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-011.wav_256.mp3",
+            "checksum": "5addd86cd28ac1dc3a007bf61bbb3191",
+            "transCodedDate": "12-Feb-18",
+            "storeId": 1338,
+            "nasFilePath": "/StorePreProd/Assets_TS/transcodes/4_catalogue27_0094637940655_T-8_SoundRecording_02-011.wav_256.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "captureId": "11938",
+      "format": "Digital Audio Album",
+      "componentNumber": 0,
+      "tracks": [
+        {
+          "trackId": 1729,
+          "idx": 0,
+          "captureTrackId": "109487",
+          "captureRecordingId": "81745",
+          "sideNumber": 0,
+          "trackNumber": 0,
+          "individualAvailable": true,
+          "priceTier": "T1",
+          "selectedAsset": {
+            "storeId": "939",
+            "assetType": "Audio",
+            "itemType": "Wav",
+            "supplyChain": true,
+            "fileType": {
+              "bitRate": 1412000,
+              "audioCodec": "PCM signed 16-bit little-endian",
+              "duration": 1780,
+              "sampleRate": 44100,
+              "sampleSize": 16,
+              "channels": 2
+            },
+            "ddexType": "SoundRecording",
+            "ddexResourceType": "MusicalWorkSoundRecording",
+            "fileSize": 1502160,
+            "originalFileName": "0094635784657_T-1171_Image.jpg",
+            "checksum": "a1302df799c9153ef2a3e5931ddb83e7",
+            "uploadFileName": "4_catalogue27_0094635784657_T-1171_Image.jpg",
+            "nasFilePath": "/StorePreProd/Assets/complete/4_catalogue27_0094635784657_T-1171_Image.jpg",
+            "newFileName": "4050538027563_01_01.jpg",
+            "externalDownloadUrl": "4050538027563_01_01.jpg",
+            "externalUrlCreatedDate": "4050538027563_01_01.jpg",
+            "externalUrlValidity": "4050538027563_01_01.jpg"
+          },
+          "isrc": "GB5KW1702111",
+          "distributors": [
+            {
+              "distributorName": "ADA",
+              "distributorId": "1",
+              "distributorTerritories": [
+                { "isoCode": "AF", "partnerPriceCode": "0.05" },
+                { "isoCode": "AL", "partnerPriceCode": "0.05" },
+                { "isoCode": "AR", "partnerPriceCode": "0.05" },
+                { "isoCode": "CA", "partnerPriceCode": "0.05" },
+                { "isoCode": "DZ", "partnerPriceCode": "0.05" },
+                { "isoCode": "NE", "partnerPriceCode": "0.05" },
+                { "isoCode": "PE", "partnerPriceCode": "0.05" }
+              ]
+            }
+          ]
+        },
+        {
+          "trackId": 9494,
+          "idx": 1,
+          "captureTrackId": "149928",
+          "captureRecordingId": "65107",
+          "sideNumber": 0,
+          "trackNumber": 1,
+          "individualAvailable": true,
+          "priceTier": "T1",
+          "selectedAsset": {
+            "storeId": "1291",
+            "assetType": "Audio",
+            "itemType": "Wav",
+            "supplyChain": true,
+            "fileType": {
+              "bitRate": 1414000,
+              "audioCodec": "PCM signed 16-bit little-endian",
+              "duration": 364870,
+              "sampleRate": 44100,
+              "sampleSize": 16,
+              "channels": 2
+            },
+            "ddexType": "SoundRecording",
+            "ddexResourceType": "MusicalWorkSoundRecording",
+            "fileSize": 1341177,
+            "originalFileName": "0094637879054_T-1171_Image.jpg",
+            "checksum": "e00c19a2e2ee493b4c28b5e4682f1b3a",
+            "uploadFileName": "4_catalogue27_0094637879054_T-1171_Image.jpg",
+            "nasFilePath": "/StorePreProd/Assets/complete/4_catalogue27_0094637879054_T-1171_Image.jpg",
+            "newFileName": "4050538027563_01_02.jpg",
+            "externalDownloadUrl": "4050538027563_01_02.jpg",
+            "externalUrlCreatedDate": "4050538027563_01_02.jpg",
+            "externalUrlValidity": "4050538027563_01_02.jpg"
+          },
+          "isrc": "GB5KW1702058",
+          "distributors": [
+            {
+              "distributorName": "ADA",
+              "distributorId": "1",
+              "distributorTerritories": [
+                { "isoCode": "AF", "partnerPriceCode": "0.05" },
+                { "isoCode": "AL", "partnerPriceCode": "0.05" },
+                { "isoCode": "AR", "partnerPriceCode": "0.05" },
+                { "isoCode": "CA", "partnerPriceCode": "0.05" },
+                { "isoCode": "DZ", "partnerPriceCode": "0.05" },
+                { "isoCode": "NE", "partnerPriceCode": "0.05" },
+                { "isoCode": "PE", "partnerPriceCode": "0.05" }
+              ]
+            }
+          ]
+        }
+      ],
+      "componentAssets": [
+        {
+          "storeId": "1339",
+          "assetType": "Image",
+          "itemType": "Tiff",
+          "supplyChain": true,
+          "assetSubType": "Packshot",
+          "ddexType": "Image",
+          "ddexResourceType": "FrontCoverImage",
+          "fileSize": 77672492,
+          "originalFileName": "0094637940655_T-8_SoundRecording_02-012.wav",
+          "checksum": "40d11271b76072dbbe6710273bd46289",
+          "uploadFileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-012.wav",
+          "nasFilePath": "/StorePreProd/Assets/complete/4_catalogue27_0094637940655_T-8_SoundRecording_02-012.wav",
+          "newFileName": "4050538027563.wav",
+          "externalDownloadUrl": "4050538027563.wav",
+          "externalUrlCreatedDate": "4050538027563.wav",
+          "externalUrlValidity": "4050538027563.wav",
+          "transcodeDetails": {
+            "transcodeId": "1339_mp3_256",
+            "uploadId": 1339,
+            "itemType": "mp3_256",
+            "contentType": "audio/mpeg",
+            "audioCodec": "MP3 (MPEG audio layer 3)",
+            "bitRate": 256000,
+            "channels": 2,
+            "duration": 440350,
+            "sampleRate": 44100,
+            "sampleSize": 3,
+            "filesize": 14091955,
+            "fileName": "4_catalogue27_0094637940655_T-8_SoundRecording_02-012.wav_256.mp3",
+            "checksum": "a4e5987b3f195fcd4bd3b1ffe2be9c37",
+            "transCodedDate": "12-Feb-18",
+            "storeId": 1339,
+            "nasFilePath": "/StorePreProd/Assets_TS/transcodes/4_catalogue27_0094637940655_T-8_SoundRecording_02-012.wav_256.mp3"
+          }
+        }
+      ]
+    }
+  ],
+  "distributors": [
+    {
+      "distributorName": "ADA",
+      "distributorId": "1",
+      "distributorTerritories": [
+        {
+          "isoCode": "AF",
+          "releaseDate": "2018-09-09",
+          "currency": "Euro",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "euroPpdBmgCode": "Bundle15",
+          "gbpPpdBmgCode": "Bundle15",
+          "usdPpdBmgCode": "Bundle15",
+          "isAvailableForSale": true,
+          "partnerPriceCode": "0.05"
+        },
+        {
+          "isoCode": "AL",
+          "releaseDate": "2018-09-09",
+          "currency": "Euro",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "euroPpdBmgCode": "Bundle15",
+          "gbpPpdBmgCode": "Bundle15",
+          "usdPpdBmgCode": "Bundle15",
+          "isAvailableForSale": true,
+          "partnerPriceCode": "0.05"
+        },
+        {
+          "isoCode": "AR",
+          "releaseDate": "2018-09-09",
+          "currency": "Euro",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "euroPpdBmgCode": "Bundle15",
+          "gbpPpdBmgCode": "Bundle15",
+          "usdPpdBmgCode": "Bundle15",
+          "isAvailableForSale": true,
+          "partnerPriceCode": "0.05"
+        },
+        {
+          "isoCode": "CA",
+          "releaseDate": "2018-09-09",
+          "currency": "USD",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "euroPpdBmgCode": "Bundle15",
+          "gbpPpdBmgCode": "Bundle15",
+          "usdPpdBmgCode": "Bundle15",
+          "isAvailableForSale": true,
+          "partnerPriceCode": "0.05"
+        },
+        {
+          "isoCode": "DZ",
+          "releaseDate": "2018-09-09",
+          "currency": "Euro",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "euroPpdBmgCode": "Bundle15",
+          "gbpPpdBmgCode": "Bundle15",
+          "usdPpdBmgCode": "Bundle15",
+          "isAvailableForSale": true,
+          "partnerPriceCode": "0.05"
+        },
+        {
+          "isoCode": "NE",
+          "releaseDate": "2018-09-09",
+          "currency": "Euro",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "euroPpdBmgCode": "Bundle15",
+          "gbpPpdBmgCode": "Bundle15",
+          "usdPpdBmgCode": "Bundle15",
+          "isAvailableForSale": true,
+          "partnerPriceCode": "0.05"
+        },
+        {
+          "isoCode": "PE",
+          "releaseDate": "2018-09-09",
+          "currency": "Euro",
+          "permanentDownloadDate": "",
+          "subscriptionStreamingDate": "",
+          "adSupportedStreamingDate": "",
+          "euroPpdBmgCode": "Bundle15",
+          "gbpPpdBmgCode": "Bundle15",
+          "usdPpdBmgCode": "Bundle15",
+          "isAvailableForSale": true,
+          "partnerPriceCode": "0.05"
+        }
+      ],
+      "retailers": { "exclusives": [], "exclusions": [] }
+    }
+  ],
+  "internalSalesNoteInformation": "",
+  "consumerSynopsis": "",
+  "audioQuality": "STANDARD_DEFINITION",
+  "digitalAttributes": {
+    "retailers": [{ "exclusives": [], "exclusions": [] }],
+    "previewClipsAvailability": "No",
+    "previewClipsAvailabilityDate": "",
+    "permanentDownload": false,
+    "subscriptionStreaming": true,
+    "adSupportStreaming": true,
+    "masteringEngineerStudio": "",
+    "masteringStudioEmailAddress": ""
+  },
+  "tracks": [],
+  "isDataOnlyTrigger": false,
+  "assetOptions": "All Assets",
+  "ddexPartyId": "",
+  "ddexPartyName": "",
+  "deliveryType": "Full trigger"
+}

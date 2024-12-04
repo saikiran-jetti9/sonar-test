@@ -1,0 +1,29 @@
+pipeline {
+
+    agent none
+
+    stages {
+
+      stage('Clean') {
+
+        agent { label 'bmg-supplychain-deliver-upgrade-test-wrk' }
+
+        steps {
+          cleanWs()
+        }
+
+      }
+
+      stage('Docker build and push'){
+
+        agent { label 'bmg-supplychain-deliver-upgrade-test-wrk' }
+
+        steps{
+            sh "chmod +x ./scripts_jenkins/build_gcp.sh"
+            sh "./scripts_jenkins/build_gcp.sh test"
+        }
+
+      }
+    }
+
+}
