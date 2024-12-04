@@ -5,5 +5,8 @@ sonarqube {
         property "sonar.sources", "src/main"
         property "sonar.tests", "src/test"
         property "sonar.coverage.exclusions", "**/model/**/*,**/dto/**,**/client/**,**/config/**,**/consumer/**,**/producer/**,**/enums/**,**/publisher/**,**/repository/**,**/rabbitmq/**,**/controller/AuthController.java,**/controller/UserController.java,**/controller/CsrfTokenController.java,**/controller/WebSocketController.java,**/workflow/execution/WorkflowInstanceProcessor.java,**/workflow/execution/WorkflowExecutor.java,**/workflow/step/**,**/serviceimpl/CustomUserInfoService.java"
+        property "sonar.projectKey", "saikiran-jetti9_sonar-test"
+        property "sonar.organization", "saikiran-sonar"
+        property "sonar.host.url", "https://sonarcloud.io"
     }
 }
