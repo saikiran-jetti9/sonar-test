@@ -1,0 +1,18 @@
+//Getting triggered user info
+def cause = currentBuild.getBuildCauses('hudson.model.Cause$UserIdCause')
+
+pipeline {
+  agent { label 'bmg-trigon-staging-wrk' }
+  environment {
+    GITCREDENTIALS=credentials('jenkins-sa-test')
+  }
+  stages {
+    stage('Deploy') {
+      steps {
+        // Run deploy script
+        sh "chmod +x ./jenkins_scripts/deploy_gcp.sh"
+        sh "./jenkins_scripts/deploy_gcp.sh staging ${GITCREDENTIALS_USR} ${GITCREDENTIALS_PSW} '${cause.userId}'"
+      }
+    }
+  }
+}

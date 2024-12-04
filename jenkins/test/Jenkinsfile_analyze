@@ -1,0 +1,13 @@
+pipeline {
+  agent { label 'bmg-trigon-test-wrk'}
+  stages {
+    stage('Masterdata analyze') {
+      steps {
+        withCredentials([string(credentialsId: 'sonarqube-token-sk', variable: 'token')]) {
+            sh "chmod +x ./jenkins_scripts/analyze_gcp.sh"
+            sh "./jenkins_scripts/analyze_gcp.sh test $token"
+         }
+      }
+    }
+  }
+}

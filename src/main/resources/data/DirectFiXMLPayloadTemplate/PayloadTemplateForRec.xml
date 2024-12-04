@@ -1,0 +1,59 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sfin="http://sap.com/xi/SAPSCORE/SFIN">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <sfin:JournalEntryBulkCreateRequest>
+            <MessageHeader>
+                <CreationDateTime>${creationDateTimeRequest}</CreationDateTime>
+            </MessageHeader>
+            <JournalEntryCreateRequest>
+                <MessageHeader>
+                    <CreationDateTime>${creationDateTimeRequest}</CreationDateTime>
+                </MessageHeader>
+                <JournalEntry>
+                    <OriginalReferenceDocumentType>${originalReferenceDocumentType}</OriginalReferenceDocumentType>
+                    <OriginalReferenceDocument>${originalReferenceDocument}</OriginalReferenceDocument>
+                    <BusinessTransactionType>${businessTransactionType}</BusinessTransactionType>
+                    <AccountingDocumentType>${accountingDocumentType}</AccountingDocumentType>
+                    <DocumentHeaderText>${urri}</DocumentHeaderText>
+                    <CreatedByUser>${createdByUser}</CreatedByUser>
+                    <CompanyCode>${sapCompanyCode}</CompanyCode>
+                    <DocumentDate>${postingDate}</DocumentDate>
+                    <PostingDate>${postingDate}</PostingDate>
+                    <DocumentReferenceID>${originalDocumentReferenceID}</DocumentReferenceID>
+                    <Item>
+                        <CompanyCode>${sapCompanyCode}</CompanyCode>
+                        <GLAccount>${glAccount}</GLAccount>
+                        <AmountInTransactionCurrency currencyCode="${defaultCurrencyCode}">${glAmountInTransactionCurrency}</AmountInTransactionCurrency>
+                        <AmountInCompanyCodeCurrency currencyCode="${defaultCurrencyCode}">${glAmountInCompanyCodeCurrency}</AmountInCompanyCodeCurrency>
+                        <AmountInGroupCurrency currencyCode="${defaultCurrencyCode}">${glAmountInGroupCurrency}</AmountInGroupCurrency>
+                        <DebitCreditCode>${glSapPostingKey}</DebitCreditCode>
+                        <DocumentItemText>${glShortTextFromPoFile}</DocumentItemText>
+                        <AssignmentReference>${glAssignmentReference}</AssignmentReference>
+                        <ReferenceKey_3>${glReferenceKey_3}</ReferenceKey_3>
+                        <Tax>
+                            <TaxCode>${glTaxCode}</TaxCode>
+                        </Tax>
+                        <AccountAssignment>
+                            <OrderID>${glOrderId}</OrderID>
+                        </AccountAssignment>
+                    </Item>
+                    <CreditorItem>
+                        <ReferenceDocumentItem>${creditorReferenceDocumentItem}</ReferenceDocumentItem>
+                        <Creditor>${creditor}</Creditor>
+                        <AmountInTransactionCurrency currencyCode="${defaultCurrencyCode}">${creditorAmountInTransactionCurrency}</AmountInTransactionCurrency>
+                        <AmountInCompanyCodeCurrency currencyCode="${defaultCurrencyCode}">${creditorAmountInCompanyCodeCurrency}</AmountInCompanyCodeCurrency>
+                        <AmountInGroupCurrency currencyCode="${defaultCurrencyCode}">${creditorAmountInGroupCurrency}</AmountInGroupCurrency>
+                        <DebitCreditCode>${creditorSapPostingKey}</DebitCreditCode>
+                        <DocumentItemText>${creditorShortText}</DocumentItemText>
+                        <AssignmentReference>${creditorAssignmentReference}</AssignmentReference>
+                        <DownPaymentTerms>
+                            <SpecialGLCode>${creditorDownPaymentTermsSpecialGLCode}</SpecialGLCode>
+                            <TaxCode>${creditorDownPaymentTermsTaxCode}</TaxCode>
+                        </DownPaymentTerms>
+                        <StateCentralBankPaymentReason>${creditorStateCentralBankPaymentReason}</StateCentralBankPaymentReason>
+                    </CreditorItem>
+                </JournalEntry>
+            </JournalEntryCreateRequest>
+        </sfin:JournalEntryBulkCreateRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

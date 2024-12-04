@@ -1,0 +1,150 @@
+openapi: "3.0.1"
+info:
+  title: "Trigon external APIs"
+  version: "1.0"
+  description: "Trigon external API's which can be called from client"
+servers:
+  - url: "https://trigon-test.bmg.com/api/external"
+    description: "Test environment"
+paths:
+  /posting-updates/po:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostingUpdatesPOPayload' 
+      responses:
+        '202':
+          description: "Your request has been received successfully"
+          content:
+            application/json:
+              schema:
+                properties:
+                  meta:
+                    type: object
+                    properties:
+                      message: 
+                        type: string
+                        description: "Your request has been received successfully and would be processed."
+                  data:
+                    type: object
+        '401':
+          description: "Unauthorized"
+        '400':
+          description: "Bad Request - Invalid data"
+          content:
+            application/json:
+              schema:
+                properties:
+                  meta:
+                    type: object
+                    properties:
+                      message: 
+                        type: string
+                        description: "Invalid data"
+                  data:
+                    type: object
+  /posting-updates/fi:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostingUpdatesFIPayload' 
+      responses:
+        '202':
+          description: "Your request has been received successfully"
+          content:
+            application/json:
+              schema:
+                properties:
+                  meta:
+                    type: object
+                    properties:
+                      message: 
+                        type: string
+                        description: "Your request has been received successfully and would be processed."
+                  data:
+                    type: object
+        '401':
+          description: "Unauthorized"
+        '400':
+          description: "Bad Request - Invalid data"
+          content:
+            application/json:
+              schema:
+                properties:
+                  meta:
+                    type: object
+                    properties:
+                      message: 
+                        type: string
+                        description: "Invalid data"
+                  data:
+                    type: object
+components:
+  schemas:
+    PostingUpdatesPOPayload:
+      type: object
+      properties:
+        postingUpdates:
+          type: array
+          items:
+            $ref: '#/components/schemas/PostingUpdatesPO'
+    PostingUpdatesPO:
+      type: object
+      required:
+        - trigonIdentifier
+      properties:
+        trigonIdentifier:
+          type: string
+        result:
+          type: string
+        notes:
+          type: string
+        purchaseOrderNumber:
+          type: number
+        materialDocumentNumber:
+          type: number
+        postedTime:
+          type: string
+          format: date-time
+        poRequestXml:
+          type: string
+        poResponseXml:
+          type: string
+        grRequestXml:
+          type: string
+        grResponseXml:
+          type: string
+    PostingUpdatesFIPayload:
+      type: object
+      properties:
+        postingUpdates:
+          type: array
+          items:
+            $ref: '#/components/schemas/PostingUpdatesFI'
+    PostingUpdatesFI:
+      type: object
+      required:
+        - trigonIdentifier
+      properties:
+        trigonIdentifier:
+          type: string
+        fiDocumentNumber:
+          type: number
+        errorInformation:
+          type: string
+        postedTime:
+          type: string
+          format: date-time
+        result:
+          type: string
+        
+
+          
+
+        
+    
+  

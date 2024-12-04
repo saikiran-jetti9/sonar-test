@@ -1,0 +1,35 @@
+#!/bin/bash
+
+echo "Running git pre-commit hook"
+
+# Fetch the current branch name
+local_branch="$(git rev-parse --abbrev-ref HEAD)"
+
+# Define the regex pattern for branch naming
+regex_pattern='^(feature|bugfix|improvement|refactor|hotfix)\/[A-Z]{2,}-[0-9]+(-[a-z]+(-[a-z]+)?)?$'
+
+# Check if the branch name matches the required pattern
+if ! [[ $local_branch =~ $regex_pattern ]]; then
+    echo ""
+    echo "ERROR: Something is wrong with your branch name."
+    echo "We follow the naming convention:"
+    echo ""
+    echo "    <branch-type>/<ticket>"
+    echo ""
+    echo "where 'branch-type' is one of the following:"
+    echo ""
+    echo "    feature|bugfix|improvement|refactor|hotfix"
+    echo ""
+    echo "and 'branch-name' is a Jira ticket key such as 'AAD-1'."
+    echo "For example, 'feature/AAD-1' is a valid branch name."
+    echo "We also encourage adding a short suffix in kebab case to more easily identify your branch."
+    exit 1
+fi
+
+./gradlew clean build
+
+RESULT=$?
+
+# return 1 exit code if running checks fails
+[ $RESULT -ne 0 ] && exit 1
+exit 0

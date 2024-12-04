@@ -1,0 +1,104 @@
+{
+  "openapi":"3.0.1",
+  "info":
+    {
+      "title":"Trigon APIs",
+      "description":"Trigon API's which can be called from client",
+      "version":"2.0"
+    },
+  "servers":
+    [
+      {
+        "url":"http://localhost:8080/api",
+        "description":"Generated server url"
+      }
+    ],
+  "paths":
+    {
+      "/logged-in-user":
+        {
+          "get":
+            {
+              "tags":["user-controller"],
+              "operationId":"getLoggedInUserDetails",
+              "responses":
+                {
+                  "200":
+                    {
+                      "description":"OK",
+                      "content":
+                        {
+                          "*/*":
+                            {
+                              "schema":
+                                {
+                                  "type":"object",
+                                  "$ref":"#/components/schemas/UserDto"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+  "components":
+    {
+      "schemas":
+        {
+          "UserDto":
+            {
+              "type":"object",
+              "properties":
+                {
+                  "id":
+                    {
+                      "type":"number",
+                      "description":"User Id",
+                      "example": 101
+                    },
+                  "fullName":
+                    {
+                      "type":"string",
+                      "description":"User full name",
+                      "example": "Test User"
+                    },
+                  "email": {
+                    "type":"string",
+                    "description":"User email id",
+                    "example": "test@gmail.com"
+                  },
+                  "firstTimeLogin": {
+                    "type":"boolean",
+                    "description":"Flag to determine whether user has first time logged in or not",
+                    "example": true;
+                  },
+                  "userRoles": {
+                    "type":"array",
+                    "items": {
+                      "type":"string"
+                    },
+                    "description":"User roles",
+                    "example":["VIEWER", "SUPER_USER","MODIFIER","APPROVER","POSTER"]
+                  },
+                  "userTerritories": {
+                    "type":"array",
+                    "items": {
+                      "type":"string"
+                    },
+                    "description":"User territories",
+                    "example":["BGUK","BGGE","BMGM","CMUS","UK","GE","PW","US","NA"]
+                  },
+                  "userSegments": {
+                    "type":"array",
+                    "items": {
+                      "type":"string"
+                    },
+                    "description":"User segments",
+                    "example":["PUBLISHING","RECORDING"]
+                  }
+                }
+            }
+        }
+    }
+}

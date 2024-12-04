@@ -1,0 +1,18 @@
+pipeline {
+    agent none
+    stages {
+        stage('Clean') {
+            agent { label 'bmg-trigon-staging-wrk' }
+            steps {
+                cleanWs()
+            }
+        }
+        stage('Docker build and push'){
+            agent { label 'bmg-trigon-staging-wrk' }
+            steps{
+                sh "chmod +x ./jenkins_scripts/build_gcp.sh"
+                sh "./jenkins_scripts/build_gcp.sh staging"
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://jp5-int.bertelsmann.de:443/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_Supplier('30073585')",
+          "uri": "https://jp5-int.bertelsmann.de:443/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_Supplier('30073585')",
+          "type": "API_BUSINESS_PARTNER.A_SupplierType"
+        },
+        "Supplier": "30073585",
+        "AlternativePayeeAccountNumber": "",
+        "AuthorizationGroup": "I001",
+        "CreatedByUser": "GGFF_DBS01",
+        "CreationDate": "/Date(1545177600000)/",
+        "Customer": "",
+        "PaymentIsBlockedForSupplier": false,
+        "PostingIsBlocked": false,
+        "PurchasingIsBlocked": false,
+        "SupplierAccountGroup": "I001",
+        "SupplierFullName": " Mark Jansen/5953 CK Reuver",
+        "SupplierName": "Mark Jansen",
+        "VATRegistration": "",
+        "BirthDate": null,
+        "ConcatenatedInternationalLocNo": "0000000 &00000 &0",
+        "DeletionIndicator": false,
+        "FiscalAddress": "",
+        "Industry": "296",
+        "InternationalLocationNumber1": "0",
+        "InternationalLocationNumber2": "0",
+        "InternationalLocationNumber3": "0",
+        "IsNaturalPerson": "X",
+        "ResponsibleType": "",
+        "SuplrQltyInProcmtCertfnValidTo": null,
+        "SuplrQualityManagementSystem": "",
+        "SupplierCorporateGroup": "",
+        "SupplierProcurementBlock": "",
+        "TaxNumber1": "",
+        "TaxNumber2": "",
+        "TaxNumber3": "",
+        "TaxNumber4": "",
+        "TaxNumber5": "",
+        "TaxNumberResponsible": "",
+        "TaxNumberType": "",
+        "SuplrProofOfDelivRlvtCode": "",
+        "BR_TaxIsSplit": false,
+        "DataExchangeInstructionKey": "",
+        "ZZ1_XZEMP_sup": false,
+        "ZZ1_DTAWS_sup": "",
+        "to_SupplierCompany": {
+          "__deferred": {
+            "uri": "https://jp5-int.bertelsmann.de:443/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_Supplier('30073585')/to_SupplierCompany"
+          }
+        },
+        "to_SupplierPurchasingOrg": {
+          "__deferred": {
+            "uri": "https://jp5-int.bertelsmann.de:443/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_Supplier('30073585')/to_SupplierPurchasingOrg"
+          }
+        },
+        "to_SupplierText": {
+          "__deferred": {
+            "uri": "https://jp5-int.bertelsmann.de:443/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_Supplier('30073585')/to_SupplierText"
+          }
+        }
+      }
+    ]
+  }
+}
