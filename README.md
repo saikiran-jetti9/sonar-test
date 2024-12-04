@@ -15,7 +15,7 @@ Read this README thoroughly before starting the project, and make sure to follow
     ```
   -Dspring.profiles.active=local
     ```
-
+fadfs
 ## Run as Master or Worker
 - To run only as Master application, add `MASTER_ROLE=master`in environment variable.
 - To run only as Worker application, add `WORKER_ROLE=worker`in environment variable.
