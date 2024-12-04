@@ -11,7 +11,7 @@ Read this README thoroughly before starting the project, and make sure to follow
 - Install RabbitMQ and create required Queues and update required configurations in `application-local.yml`.
 - Update `application-local.yml` with your local configuration.
 - Add Master or Worker role in environment variable.
-- Run the application with below VM argument.
+- Run the application with below VM argument.fsfdasf
     ```
   -Dspring.profiles.active=local
     ```
