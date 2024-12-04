@@ -1,8 +1,0 @@
-#1 Importing Admin Settings
-
-curl --location --request POST 'https://trigon-test.bmg.com/api/insert-admin-setting' \
---header 'Cookie: JSESSIONID=2884A7FDD77DE74E029E6E6AA4F3A963' \
---header 'Content-Type: application/json'
-
-TO get JSESSIONID:
-- login to the web application and go to Application tab by inspecting and find the JSESSIONID in cookies
