@@ -7,8 +7,13 @@ plugins {
 	id 'com.diffplug.spotless' version '6.25.0'
 	id "com.google.cloud.tools.jib" version "3.3.2"
 	id 'pmd'
+	id 'org.owasp.dependencycheck' version '11.1.1'
 }
-
+dependencyCheck {
+    failBuildOnCVSS = 7.0
+    format = 'SARIF' // Ensures the report is generated in SARIF format.
+    outputDirectory = "$buildDir/reports/dependency-check"
+}
 spotless {
 	java {
 		removeUnusedImports()

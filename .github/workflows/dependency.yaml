@@ -1,0 +1,33 @@
+name: dependency Checks
+
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  junit-tests:
+    runs-on: ubuntu-24.04
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+
+    - name: Run dependencyCheckAnalyze
+      run: ./gradlew dependencyCheckAnalyze
+      continue-on-error: true
+
+    - name: List reports directory
+      run: ls -R ./build/reports/dependency-check
+      continue-on-error: true
+
+
+    - name: Upload SARIF to GitHub
+      uses: github/codeql-action/upload-sarif@v3
+      with:
+        sarif_file: ./build/reports/dependency-check/dependency-check-report.sarif
